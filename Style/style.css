@@ -5,12 +5,12 @@
     height: 960px;
     margin-left: auto;
     margin-right: auto;
-    grid-template: 50px 1fr 1fr 1fr 1fr 1fr  / 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template: 60px 1fr 1fr 1fr 1fr  / 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 
 
-/* Main menu //////////////////////////////////// */
+/* Main menu ////////////////////////////////////////////// */
 
 #index-menu {
     grid-area: 1 / 2 / 1 / span 4;
@@ -44,4 +44,14 @@ nav#index-menu ul li a:hover {
     background-color: dodgerblue;
     color:white;
     border-color: white;    
+}
+
+
+
+/* education - alsion */
+
+#education-alsion {
+    grid-area: 2 / 2 / span 2 / span 4;
+    text-align: center;
+    margin-top: 30px;
 }
