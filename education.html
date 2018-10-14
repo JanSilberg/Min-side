@@ -24,11 +24,50 @@
 
 
     <section id="education-alsion">
-            <img id="education-alsion" src="Images/alsion-small.jpg" alt="Picture of University of Southern Denmark Alsion">
+            <h2>The School</h2>
+            <img src="Images/alsion-small.jpg" alt="Picture of University of Southern Denmark Alsion">
             <h1>University of Southern Denmark, Alsion</h1>
             <h1>Erhvervsakademiet, EASV</h3>
-            <p>text text text</p>
+            <p>Historien om Alsion
+
+            Alsion er Sønderjyllands nye viden- og kulturcenter og det første byggeri i Danmark, hvis unikke ide er at samle uddannelse, forskning og kultur under ét tag.
+                    
+            Bygherrerne er Forskerpark Syd A/S, Universitets- og Bygningsstyrelsen, Fonden Koncertsalen Alsion og Sønderborg Kommune.<span id="dots">...</span> <span id="more"> Byggeriet er på 28.428 kvadratmeter, og den samlede pris beløber sig til ca. 600 mio. kr.
+                    
+            Alsion rummer Syddansk Universitet, en privat videnspark, én af Europas bedste akustiske koncertsale til klassisk musik, hjemsted for Sønderjyllands Symfoniorkester, café og renrum.
+                    
+            Ideen til byggeriet opstod i 1998. Først som et byggeri til Syddansk Universitet og Forskerparken. Siden kom også koncertsalen, ny hjemstedsadresse til Sønderjyllands Symfoniorkester og byparken til. I dag fremstår Alsion som et unikt viden- og kulturcenter for hele Sønderjylland — og som et usædvanligt flot nyt vartegn for Sønderborg by.
+                    
+            I 2004 kom det store øjeblik. Første spadestik til byggeriet blev taget i april, og i efteråret 2006 begyndte de første virksomheder at flytte ind i Alsion. Sønderjyllands Symfoniorkesters første koncert i salen fandt sted den 1. februar 2007, og den 30. august 2007 var der for første gang fuldt hus i Alsion, da de universitetsstuderende rykkede ind til deres første studieår i Alsion.
+                    
+            Sidste milepæl var den officielle indvielse den 30. oktober 2007 under overværelse af HM Dronningen og kronprinsparret. Ni års hårdt og målrettet arbejde er lykkedes.
+                    
+            Bygherrerne har skabt ét af Syddanmarks mest innovative miljøer i Forskerparken i Alsion.
+            Syddansk Universitet har nu Danmarks mest moderne universitetsmiljø i Alsion.
+            Vi har indrettet én af Europas bedste koncertsale med Koncertsalen Alsion.
+                    
+            Alsion er en del af byrådets strategi om at skabe et af Danmarks førende vækstcentre.</span> <button onclick="myFunction()" id="myBtn">Read more</button> </p>
+            
     </section>
+
+
+
+
+<script>function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      } </script>
 
     </section>
 </body>
