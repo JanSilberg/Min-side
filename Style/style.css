@@ -1,21 +1,33 @@
 /* Grid wrapper */
 .wrapper {
     display: grid;
-    width: 70%;
-    height: 960px;
+    width: 85%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
-    grid-template: 60px 1fr 1fr 1fr 1fr  / 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* 6 rows / 6 columns */
 }
 
 
+body {
+    font-size: 1vw;
+}
 
+img {
+    max-width: 100%;
+}
+
+
+/* Main menu ////////////////////////////////////////////// */
+/* Main menu ////////////////////////////////////////////// */
 /* Main menu ////////////////////////////////////////////// */
 
 #index-menu {
-    grid-area: 1 / 2 / 1 / span 4;
+    grid-area: 1 / 2 / 2 / span 4;
     text-align: center;
-    
+    font-weight: 700;
+    max-width: 100%;
 }
 
 nav#index-menu ul {
@@ -26,32 +38,167 @@ nav#index-menu ul {
     list-style-type: none;
     margin-top: 1rem;
     padding: 10px;
-    background-color: rgb(196, 255, 235);
+    background-color: #2a2a2a;
+    border-radius: 30px;
 }
 
 nav#index-menu ul li a {
-    border: 1px solid lightblue;
+    border: 1px solid black;
     text-decoration: none;
-    margin: 0 1rem;
-    max-width: 100px;
+    grid-column-gap: 5%;
+    max-width: 100%;
     text-align: center;
-    background-color: lightblue;
+    background-color: grey;
     color: black;
     padding: 4px;
+    border-radius: 30px;
+    font-size: 1vw;
 }
 
 nav#index-menu ul li a:hover {
-    background-color: dodgerblue;
-    color:white;
+    background-color: lightgray;
+    color:black;
     border-color: white;    
 }
 
 
 
-/* education - alsion */
+
+
+/* Home /////////////////////////////////////////////////// */
+/* Home /////////////////////////////////////////////////// */
+/* Home /////////////////////////////////////////////////// */
+
+#bio {
+    grid-area: 2 / 2 / span 2 / span 3;
+    margin-left: 5%;
+}
+
+#bio-image {
+    grid-area: 2 / 5 / span 3 / span 6;
+    justify-self: center;
+    border-radius: 30px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+/* education  ///////////////////////////////////////////// */
+/* education  ///////////////////////////////////////////// */
+/* education  ///////////////////////////////////////////// */
 
 #education-alsion {
-    grid-area: 2 / 2 / span 2 / span 4;
-    text-align: center;
-    margin-top: 30px;
+    grid-area: 2 / 3 / span 3 / span 4;
+    text-align: left;
+}
+
+
+
+#more {
+    display: none;
+}
+
+#read-more-education-the-school {
+    grid-area: 4 / 3 / 4 / 3;
+    width: 20%;
+    max-width: 80px;
+    height: 100%;
+    max-height: 20px;
+    font-size: .6vw;
+    background-color: grey;
+    color: black;
+    border-radius: 30px;
+}
+
+#read-more-education-the-school:hover {
+    background-color: lightgray;
+    color:black;
+    border-color: white;  
+    cursor: pointer;
+}
+
+
+/* Social Media bar /////////////////////////////////////// */
+/* Social Media bar /////////////////////////////////////// */
+/* Social Media bar /////////////////////////////////////// */
+
+.SoMe {
+    display: grid;
+    
+    grid-area: 2 / 1 / span 4 / 1;
+    grid-row-gap: 3vw;
+}
+
+
+
+/* Fadein */
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+#some-linkedin {
+    grid-area: 2 / 1 / 2 / 1;
+    animation: fadein 5s;
+    animation-delay: .8s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    transition: all .2s ease-in-out;
+}
+
+#some-linkedin:hover {
+    transform: scale(1.5);
+}
+
+
+
+
+#some-easv {
+    grid-area: 3 / 1 / 3 / 1;
+    animation: fadein 5s;
+    animation-delay: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    transition: all .2s ease-in-out;
+}
+
+#some-easv:hover {
+    transform: scale(1.5);
+}
+
+
+
+#some-alsion {
+    grid-area: 4 / 1 / 4 / 1;
+    animation: fadein 6s;
+    animation-delay: 3.2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    transition: all .2s ease-in-out;
+}
+
+#some-alsion:hover {
+    transform: scale(1.5);
+}
+
+
+
+#some-sdu {
+    grid-area: 5 / 1 / 5 / 1;
+    animation: fadein 6s;
+    animation-delay: 4.5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    transition: all .2s ease-in-out;
+}
+
+#some-sdu:hover {
+    transform: scale(1.5);
 }
