@@ -97,7 +97,7 @@ nav#index-menu ul li a:hover {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    grid-template: 1fr 1fr 1fr 1fr 1fr 3fr / 10% 1fr 1fr 1fr 1fr 1fr;
+    grid-template: 1fr 1fr 1fr 1fr 1fr 3fr / 1fr 1fr 1fr 1fr 1fr 1fr;
 /* 6 rows / 6 columns */
 }
 
