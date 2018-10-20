@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Jan Silberg - Contact</title>
+    <title>Jan Silberg - Education</title>
     <link rel="stylesheet" href="Style/style.css">
 </head>
 
@@ -13,7 +13,7 @@
 
 
 <body>
-<section class="wrapper">
+<section class="education-wrapper">
 
 
 
@@ -64,11 +64,48 @@
         <img src="Images/teamtreehouse-logo.jpg" alt="team treehouse logo" style="width: 150px;">
     </a>
 
-    
 
 
 
-<p style="grid-area: 2 / 3 / 2 / span 4; font-size: 2vw;">Site under construction</p>
+
+    <img id="overview-alsion" src="Images/alsion-big.jpg" alt="Picture of University of Southern Denmark Alsion">
+
+
+    <section id="education-alsion">
+            <h1>University of Southern Denmark, Alsion</h1>
+            <h1>Erhvervsakademiet, EASV</h3>
+            <p><b>About SDU & Alsion</b>
+            
+            <p>The university and the local companies are closely connected in Sønderborg. The main aim is to create synergy between students, researchers and companies in order to facilitate entrepreneurship and innovation. This ensures an attractive study environment and a flow of knowledge which all parties benefit from.<span id="dots">...</p></span> <span id="more">     
+            <p>With researchers and students from more than 50 countries, SDU Sønderborg offers a unique international environment. </p>
+            <p>The university works closely together with the regional companies, which means that graduates from SDU Sønderborg possess the skills that the business community demands. </p>
+            
+                    
+            With the unique location of Sønderborg at the gateway to Germany and Europe, the university is also characterized by an extremely strong and well-developed border region research community.<br></span> <button onclick="myFunction()" id="read-more-education-the-school">Read more</button>
+            
+    </section>
+
+
+
+
+
+    <script>
+        function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("read-more-education-the-school");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      } 
+    </script>
 
 
 
