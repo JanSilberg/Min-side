@@ -1,0 +1,3 @@
+Ud over et normalt billede, så kan man tilføje et interaktivt map, så kunderne kan søge deres adresse op
+og så viser den automatisk ruten på hjemmesiden.
+- Koster muligvis penge, så vidt jeg kan se.
