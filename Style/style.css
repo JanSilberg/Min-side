@@ -215,9 +215,6 @@ nav#index-menu ul li a {
     background: #1C6EA4;
 }
 
-#contact-button:active {
-    background: #9F16A4;
-}
 
 
 
@@ -229,7 +226,7 @@ nav#index-menu ul li a {
 
 #bio {
     grid-area: 2 / 2 / span 2 / span 3;
-    margin-left: 5%;
+    margin-left: 5%
 }
 
 
@@ -247,23 +244,79 @@ nav#index-menu ul li a {
 
 
 
+#contact-button:active {
+    background: #9F16A4;
+}
+
+
+
+
+
+#link-reference {
+    grid-area: 4 / 2 / 4 / span 3;
+    margin-left: 5%
+}
+
+#link-button {
+
+    color: rgb(255, 255, 255);
+    padding: .1vw;
+    border-radius: 10px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
+    background: -moz-linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
+    background: -webkit-linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+    border: 2px solid rgb(28, 110, 164);
+}
+
+#link-button:hover {
+    background: #1C6EA4;
+}
+
+#link-button:active {
+    background: #9F16A4;
+}
+
+
+
+
+
 /* Portfolio ////////////////////////////////////////////// */
 /* Portfolio ////////////////////////////////////////////// */
 /* Portfolio ////////////////////////////////////////////// */
 
-#school-projects-img {
-    grid-area: 3 / 3 / 3 / 3;
+#school-projects-bruhns-mode {
+    grid-area: 4 / 4 / span 2 / span 2;
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+
+#school-projects-bbvd {
+    grid-area: 6 / 4 / span 2 / span 2;
+    width: 50%;
+    justify-self: center;
+    align-self: center;
 }
 
 
 
 
 #school-projects {
-    grid-area: 2 / 3 / 2 / 3;
+    grid-area: 3 / 4 / span 1 / span 2;
     justify-self: center;
     align-self: center;
     white-space: nowrap;
-    width: 50%;
+    width: 30%;
     text-align: center;
     color: rgb(255, 255, 255);
     border-radius: 10px;
@@ -285,6 +338,40 @@ nav#index-menu ul li a {
 }
 
 #school-projects:active {
+    background: #9F16A4;
+}
+
+
+
+
+
+#my-projects {
+    grid-area: 3 / 2 / span 1 / span 2;
+    justify-self: center;
+    align-self: center;
+    white-space: nowrap;
+    width: 30%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
+    background: -moz-linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
+    background: -webkit-linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+    border: 2px solid rgb(28, 110, 164);
+}
+
+#my-projects:hover {
+    background: #1C6EA4;
+}
+
+#my-projects:active {
     background: #9F16A4;
 }
 
@@ -630,4 +717,47 @@ nav#index-menu ul li a {
 #some-freecodecamp:hover {
     transform: scale(1.5);
     z-index: 2;
+}
+
+
+
+
+/* Contact //////////////////////////////////////////////// */
+/* Contact //////////////////////////////////////////////// */
+/* Contact //////////////////////////////////////////////// */
+
+#contact-text {
+    grid-area: 3 / 2 / 3 / span 5;
+    text-align: center
+}
+
+
+
+
+#contact-facebook {
+    grid-area: 5 / 4 / 5 / 4;
+    width: 3vw;
+    justify-self: center;
+    align-self: center;
+    z-index: 2;
+}
+
+#contact-facebook-text {
+    grid-area: 5 / 3 / 5 / span 2;
+    align-self: center;
+}
+
+
+
+
+
+#contact-mailto {
+    grid-area: 6 / 4 / 6 / 4;
+    align-self: center;
+    text-align: center;
+}
+
+#contact-email-text {
+    grid-area: 6 / 3 / 6 / 3;
+    align-self: center;
 }
