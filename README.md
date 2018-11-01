@@ -2,7 +2,7 @@
 
 
 
-Branches:
+<strong>Branches:</strong>
 
 Master = jansilberg.com (LIVE)
 
