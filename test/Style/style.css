@@ -1,0 +1,1015 @@
+/* Grid wrapper */
+
+.wrapper {
+    display: grid;
+    width: 85%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+/* infinite rows / 6 columns */
+}
+
+
+
+
+
+body {
+    font-size: 1vw;
+    font-family: georgia, sans-serif;
+    background: rgba(148, 148, 148, 0.26);
+} 
+
+
+
+
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #region All default code (desktop)*/
+
+
+
+
+
+
+
+/* Main menu ////////////////////////////////////////////// */
+/* Main menu ////////////////////////////////////////////// */
+/* Main menu ////////////////////////////////////////////// */
+
+.page-name {
+    grid-area: 1 / 1 / 1 / 1;
+    align-self: center;
+    text-align: center;
+    color: dodgerblue;
+}
+
+
+
+
+
+
+
+#home-button {
+    grid-area: 1 / 2 / 1 / 2;
+    align-self: center;
+    width: 50%;
+    text-align: center;
+    background: rgb(29, 180, 226);
+    text-decoration: none;
+    padding: 8%;
+    color: black;
+    transform: rotate(-15deg);
+    margin-top: 5%;
+    border-radius: 30px;
+}
+
+#home-button:hover {
+    background: rgb(0, 225, 255);
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+#home-button:active {
+    background: dodgerblue;
+}
+
+
+
+
+
+#portfolio-button {
+    grid-area: 1 / 3 / 1 / 3;
+    align-self: center;
+    width: 50%;
+    text-align: center;
+    background: rgb(29, 180, 226);
+    text-decoration: none;
+    padding: 8%;
+    color: black;
+    transform: rotate(-15deg);
+    margin-top: 5%;
+    border-radius: 30px;
+}
+
+#portfolio-button:hover {
+    background: rgb(0, 225, 255);
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+#portfolio-button:active {
+    background: dodgerblue;
+}
+
+
+
+
+
+#cv-button {
+    grid-area: 1 / 4 / 1 / 4;
+    align-self: center;
+    width: 50%;
+    text-align: center;
+    background: rgb(29, 180, 226);
+    text-decoration: none;
+    padding: 8%;
+    white-space: nowrap;
+    color: black;
+    transform: rotate(-15deg);
+    margin-top: 5%;
+    border-radius: 30px;
+}
+
+#cv-button:hover {
+    background: rgb(0, 225, 255);
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+#cv-button:active {
+    background: dodgerblue;
+}
+
+
+
+
+
+#contact-button {
+    grid-area: 1 / 5 / 1 / 5;
+    align-self: center;
+    width: 50%;
+    text-align: center;
+    background: rgb(29, 180, 226);
+    text-decoration: none;
+    padding: 8%;
+    color: black;
+    transform: rotate(-15deg);
+    margin-top: 5%;
+    border-radius: 30px;
+}
+
+#contact-button:hover {
+    background: rgb(0, 225, 255);
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+#contact-button:active {
+    background: dodgerblue;
+}
+
+
+
+
+
+
+#link-button {
+    grid-area: 1 / 6 / 1 / 6;
+    align-self: center;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    background: rgb(29, 180, 226);
+    text-decoration: none;
+    padding: 8%;
+    color: black;
+    transform: rotate(-15deg);
+    margin-top: 5%;
+    border-radius: 30px;
+}
+
+#link-button:hover {
+    background: rgb(0, 225, 255);
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+#link-button:active {
+    background: dodgerblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Home /////////////////////////////////////////////////// */
+/* Home /////////////////////////////////////////////////// */
+/* Home /////////////////////////////////////////////////// */
+
+#bio {
+    grid-area: 7 / 2 / span 3 / span 4;
+    background: rgba(12, 240, 12, 0.5);
+    justify-self: center;
+    width: 80%;
+    text-align: center;
+}
+
+
+
+
+
+#bio-image {
+    grid-area: 3 / 3 / span 4 / span 2;
+    justify-self: center;
+    border-radius: 30px;
+    height: auto;
+    max-width: 100%;
+    transition: all 2s ease;
+}
+
+#bio-image:hover {
+    transform: rotate(360deg);
+}
+
+
+
+
+#bio-name {
+    font-size: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Portfolio ////////////////////////////////////////////// */
+/* Portfolio ////////////////////////////////////////////// */
+/* Portfolio ////////////////////////////////////////////// */
+
+#school-projects-bruhns-mode {
+    grid-area: 4 / 4 / span 2 / span 2;
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+
+#school-projects-bbvd {
+    grid-area: 6 / 4 / span 2 / span 2;
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+
+#school-projects {
+    grid-area: 3 / 4 / span 1 / span 2;
+    justify-self: center;
+    align-self: center;
+    white-space: nowrap;
+    width: 30%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
+    background: -moz-linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
+    background: -webkit-linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+    border: 2px solid rgb(28, 110, 164);
+}
+
+#school-projects:hover {
+    background: #1C6EA4;
+}
+
+#school-projects:active {
+    background: #9F16A4;
+}
+
+
+
+
+
+#my-projects {
+    grid-area: 3 / 2 / span 1 / span 2;
+    justify-self: center;
+    align-self: center;
+    white-space: nowrap;
+    width: 30%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
+    background: -moz-linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
+    background: -webkit-linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+    border: 2px solid rgb(28, 110, 164);
+}
+
+#my-projects:hover {
+    background: #1C6EA4;
+}
+
+#my-projects:active {
+    background: #9F16A4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* School projects //////////////////////////////////////// */
+/* School projects //////////////////////////////////////// */
+/* School projects //////////////////////////////////////// */
+
+.school-projects-wrapper {
+    display: grid;
+    width: 85%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr
+/* 6 rows / 6 columns */
+}
+
+
+
+
+
+#big-bad-voodo-daddy {
+    grid-area: 3 / 2 / span 2 / span 2;
+    width: 65%;
+    justify-self: center;
+    align-self: center;
+}
+
+#big-bad-voodo-daddy:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+
+
+
+
+#bbvd-text {
+    grid-area: 3 / 4 / span 4 / span 3;
+}
+
+
+
+
+
+
+#bruhns-mode {
+    grid-area: 8 / 2 / span 2 / span 2;
+    width: 65%;
+    justify-self: center;
+    align-self: center;
+}
+
+#bruhns-mode:hover {
+    transform: scale(1.3);
+    z-index: 5;
+}
+
+
+#bruhns-mode-text {
+    grid-area: 8 / 4 / span 2 / span 3;
+    margin-left: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Curriculum Vitae  ///////////////////////////////////////////// */
+/* Curriculum Vitae  ///////////////////////////////////////////// */
+/* Curriculum Vitae  ///////////////////////////////////////////// */
+
+#overview-alsion {
+    grid-area: 2 / 4 / span 5 / span 3;
+    width: 80%;
+    justify-self: right;
+    align-self: center;
+}
+
+
+
+
+
+#courses-button {
+    grid-area: 3 / 2 / 3 / span 2;
+    width: 50%;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    color: rgb(255, 255, 255);
+    padding: .1vw;
+    border-radius: 10px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
+    background: -moz-linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
+    background: -webkit-linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+    border: 2px solid rgb(28, 110, 164);
+}
+
+#courses-button:hover {
+    background: #1C6EA4;
+}
+
+#courses-button:active {
+    background: #9F16A4;
+}
+
+
+
+
+#certificates-button {
+    grid-area: 4 / 2 / 4 / span 2;
+    width: 50%;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    color: rgb(255, 255, 255);
+    padding: .1vw;
+    border-radius: 10px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
+    background: -moz-linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
+    background: -webkit-linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+    border: 2px solid rgb(28, 110, 164);
+}
+
+#certificates-button:hover {
+    background: #1C6EA4;
+}
+
+#certificates-button:active {
+    background: #9F16A4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Social Media bar /////////////////////////////////////// */
+/* Social Media bar /////////////////////////////////////// */
+/* Social Media bar /////////////////////////////////////// */
+
+/* Fadein */
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+
+
+#some-linkedin {
+    grid-area: 3 / 1 / 3 / 1;
+    animation: fadein 12s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    transition: all .2s ease-in-out;
+    justify-self: center;
+    align-self: center;
+}
+
+#some-linkedin:hover {
+    transform: scale(1.5);
+    z-index: 2;
+}
+
+
+
+
+
+#some-easv {
+    grid-area: 4 / 1 / 4 / 1;
+    animation: fadein 11.5s;
+    animation-delay: .5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    transition: all .2s ease-in-out;
+    justify-self: center;
+    align-self: center;
+}
+
+#some-easv:hover {
+    transform: scale(1.5);
+    z-index: 2;
+}
+
+
+
+
+
+#some-alsion {
+    grid-area: 5 / 1 / 5 / 1;
+    animation: fadein 10s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    transition: all .2s ease-in-out;
+    justify-self: center;
+    align-self: center;
+}
+
+#some-alsion:hover {
+    transform: scale(1.5);
+    z-index: 2;
+}
+
+
+
+
+
+#some-sdu {
+    grid-area: 6 / 1 / 6 / 1;
+    animation: fadein 9.5s;
+    animation-delay: 1.5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    transition: all .2s ease-in-out;
+    justify-self: center;
+    align-self: center;
+}
+
+#some-sdu:hover {
+    transform: scale(1.5);
+    z-index: 2;
+}
+
+
+
+
+
+#some-github {
+    grid-area: 7 / 1 / 7 / 1;
+    animation: fadein 8s;
+    animation-delay: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    transition: all .2s ease-in-out;
+    justify-self: center;
+    align-self: center;
+}
+
+#some-github:hover {
+    transform: scale(1.5);
+    z-index: 2;
+}
+
+
+
+
+
+#some-udemy {
+    grid-area: 3 / 6 / 3 / 6;
+    animation: fadein 7.5s;
+    animation-delay: 2.5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    transition: all .2s ease-in-out;
+    justify-self: center;
+    align-self: center;
+}
+
+#some-udemy:hover {
+    transform: scale(1.5);
+    z-index: 2;
+}
+
+
+
+
+
+#some-codeacademy {
+    grid-area: 4 / 6 / 4 / 6;
+    animation: fadein 7s;
+    animation-delay: 3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    transition: all .2s ease-in-out;
+    justify-self: center;
+    align-self: center;
+}
+
+#some-codeacademy:hover {
+    transform: scale(1.5);
+    z-index: 2;
+}
+
+
+
+
+
+#some-teamtreehouse {
+    grid-area: 5 / 6 / 5 / 6;
+    animation: fadein 6.5s;
+    animation-delay: 3.5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    transition: all .2s ease-in-out;
+    justify-self: center;
+    align-self: center;
+}
+
+#some-teamtreehouse:hover {
+    transform: scale(1.5);
+    z-index: 2;
+}
+
+
+
+
+
+#some-freecodecamp {
+    grid-area: 6 / 6 / 6 / 6;
+    animation: fadein 5s;
+    animation-delay: 4s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    transition: all .2s ease-in-out;
+    justify-self: center;
+    align-self: center;
+}
+
+#some-freecodecamp:hover {
+    transform: scale(1.5);
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact //////////////////////////////////////////////// */
+/* Contact //////////////////////////////////////////////// */
+/* Contact //////////////////////////////////////////////// */
+
+#contact-text {
+    grid-area: 3 / 2 / 3 / span 4;
+    text-align: center
+}
+
+
+
+
+#contact-facebook {
+    grid-area: 5 / 4 / 5 / 4;
+    width: 3vw;
+    justify-self: center;
+    align-self: center;
+    z-index: 2;
+}
+
+#contact-facebook-text {
+    grid-area: 5 / 3 / 5 / span 2;
+    align-self: center;
+}
+
+
+
+
+
+#contact-mailto {
+    grid-area: 6 / 4 / 6 / 4;
+    align-self: center;
+    text-align: center;
+}
+
+#contact-email-text {
+    grid-area: 6 / 3 / 6 / 3;
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Courses //////////////////////////////////////////////// */
+/* Courses //////////////////////////////////////////////// */
+/* Courses //////////////////////////////////////////////// */
+
+#courses-codeacademy {
+    grid-area: 4 / 2 / span 5 / 2;
+    text-align: center;
+    animation: fadein 6.5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    transition: all .2s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Certificates /////////////////////////////////////////// */
+/* Certificates /////////////////////////////////////////// */
+/* Certificates /////////////////////////////////////////// */
+
+
+
+/* #endregion */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile query ////////////////// */
+/* Mobile query ////////////////// */
+/* Mobile query ////////////////// */
+
+@media only screen and (max-width: 600px) {
+
+
+/* Home /////////////////////////////////////////////////// */
+/* Home /////////////////////////////////////////////////// */
+/* Home /////////////////////////////////////////////////// */
+
+    #bio {
+        grid-area: 5 / 2 / span 3 / span 4;
+        margin-top: 5%;
+        font-size: 2vw;
+    }
+    
+    
+    
+    
+    
+    #bio-image {
+        grid-area: 3 / 3 / span 2 / span 2;
+        transition: none;
+    }
+
+
+    #bio-name {
+        font-size: 4vw;
+    }
+
+
+
+
+
+/* Social Media bar /////////////////////////////////////// */
+/* Social Media bar /////////////////////////////////////// */
+/* Social Media bar /////////////////////////////////////// */
+
+
+
+
+
+
+
+#some-linkedin {
+    grid-area: 3 / 1 / 3 / 1;
+}
+
+
+
+
+
+#some-easv {
+    grid-area: 4 / 1 / 4 / 1;
+}
+
+
+
+
+
+#some-alsion {
+    grid-area: 5 / 1 / 5 / 1;
+}
+
+
+
+
+
+#some-sdu {
+    grid-area: 6 / 1 / 6 / 1;
+}
+
+
+
+
+
+#some-github {
+    grid-area: 7 / 1 / 7 / 1;
+}
+
+
+
+
+
+#some-udemy {
+    grid-area: 8 / 1 / 8 / 1;
+}
+
+
+
+
+
+#some-codeacademy {
+    grid-area: 9 / 1 / 9 / 1;
+}
+
+
+
+
+
+#some-teamtreehouse {
+    grid-area: 10 / 1 / 10 / 1;
+}
+
+
+
+
+
+
+#some-freecodecamp {
+    grid-area: 11 / 1 / 12 / 1;
+}
+
+}
