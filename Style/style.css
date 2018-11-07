@@ -510,7 +510,8 @@ img {
 
 
 #bbvd-text {
-    grid-area: 3 / 4 / span 4 / span 3;
+    grid-area: 3 / 4 / span 4 / span 2;
+    font-size: .8vw;
 }
 
 
@@ -532,8 +533,9 @@ img {
 
 
 #bruhns-mode-text {
-    grid-area: 8 / 4 / span 2 / span 3;
+    grid-area: 8 / 4 / span 2 / span 2;
     margin-left: 2%;
+    font-size: .8vw;
 }
 
 
