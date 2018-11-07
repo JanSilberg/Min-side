@@ -33,7 +33,7 @@ img {
 
 
 
-/* #region Feedback */
+/* #region Feedback page (To be removed for LIVE version */
 
 #feedback-text {
     grid-area: 3 / 2 / span 2 / span 4;
@@ -49,7 +49,7 @@ img {
     align-self: center;
     justify-self: center;
     font-size: 1vw;
-    width: 50%;
+    width: 70%;
     text-align: center;
     background: rgb(255, 30, 0);
     text-decoration: none;
@@ -67,17 +67,6 @@ img {
 }
 
 
-
-
-#contact-formula {
-    grid-area: 4 / 2 / span 8 / span 4;
-}
-
-
-/* #endregion */
-
-/* #region Red labels for FEEDBACK and TEST PRE-RELEASE */
-
 #page-name-feedback {
     grid-area: 2 / 2 / 2 / 2;
     background-color: rgb(255, 30, 0); 
@@ -94,6 +83,22 @@ img {
     text-align: center;
     align-self: center;
 }
+
+
+
+#contact-formula {
+    grid-area: 4 / 2 / span 8 / span 4;
+}
+
+
+/* #endregion */
+
+
+
+
+/* #region Red labels for TEST PRE-RELEASE (To be removed for LIVE version */
+
+
 
 
 #test-pre-release {
@@ -124,12 +129,8 @@ img {
 
 
 
-/* #region All default code (desktop)*/
 
-
-
-
-
+/* #region Main menu (desktop)*/
 
 
 /* Main menu ////////////////////////////////////////////// */
@@ -231,6 +232,7 @@ img {
 
 
 
+
 #contact-button {
     grid-area: 1 / 5 / 1 / 5;
     align-self: center;
@@ -286,13 +288,12 @@ img {
 
 
 
+/* #endregion */
 
 
 
 
-
-
-
+/* #region index (home) (desktop) */
 
 /* Home /////////////////////////////////////////////////// */
 /* Home /////////////////////////////////////////////////// */
@@ -321,7 +322,7 @@ img {
 }
 
 #bio-image:hover {
-    transform: rotate(360deg);
+    transform: scale(.8);
 }
 
 
@@ -333,35 +334,12 @@ img {
 
 
 
+/* #endregion */
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* #region Portfolio (desktop) */
 
 
 
@@ -454,25 +432,13 @@ img {
 }
 
 
+/* #endregion */
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* #region School projects (desktop) */
 
 /* School projects //////////////////////////////////////// */
 /* School projects //////////////////////////////////////// */
@@ -510,7 +476,8 @@ img {
 
 
 #bbvd-text {
-    grid-area: 3 / 4 / span 4 / span 3;
+    grid-area: 3 / 4 / span 4 / span 2;
+    font-size: .8vw;
 }
 
 
@@ -532,33 +499,19 @@ img {
 
 
 #bruhns-mode-text {
-    grid-area: 8 / 4 / span 2 / span 3;
-    margin-left: 2%;
+    grid-area: 8 / 4 / span 3 / span 2;
+    font-size: .8vw;
 }
 
 
 
 
+/* #endregion */
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* #region Curriculum Vitae (desktop) */
 
 
 /* Curriculum Vitae  ///////////////////////////////////////////// */
@@ -641,19 +594,12 @@ img {
 
 
 
+/* #endregion */
 
 
 
 
-
-
-
-
-
-
-
-
-
+/* #region Social media bar (desktop) */
 
 /* Social Media bar /////////////////////////////////////// */
 /* Social Media bar /////////////////////////////////////// */
@@ -845,22 +791,12 @@ img {
 }
 
 
+/* #endregion */
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* #region Contact (desktop) */
 
 /* Contact //////////////////////////////////////////////// */
 /* Contact //////////////////////////////////////////////// */
@@ -903,18 +839,12 @@ img {
 }
 
 
+/* #endregion */
 
 
 
 
-
-
-
-
-
-
-
-
+/* #region Courses (desktop) */
 
 /* Courses //////////////////////////////////////////////// */
 /* Courses //////////////////////////////////////////////// */
@@ -930,23 +860,161 @@ img {
 }
 
 
+/* #endregion */
 
 
 
 
 
-
-
-
-
-
-
-
-
+/* #region Certificates (desktop) */
 
 /* Certificates /////////////////////////////////////////// */
 /* Certificates /////////////////////////////////////////// */
 /* Certificates /////////////////////////////////////////// */
+
+#certificates-h2 {
+    grid-area: 3 / 2 / 3 / span 4;
+    text-align: center;
+}
+
+#certificates-linak-logo {
+    grid-area: 5 / 2 / 5 / 2;
+    width: 70%;
+    justify-self: center;
+    align-self: center;
+    border: 0px solid;
+    border-color: #9F16A4;
+}
+
+#certificates-linak-logo:hover {
+    transform: scale(1.01);
+    border: .15vw solid;
+    border-color: black;
+}
+
+#certificates-linak-text {
+    grid-area: 5 / 3 / span 2 / span 2;
+    background-color: orange;
+    height: 6vw;
+    width: 26vw;
+}
+
+/* #endregion */
+
+
+/* #region JS dropdown menu */
+
+.container{
+    grid-area: 2 / 2 / 2 / 2;
+    border-radius:6px;
+    max-width: 100%;
+    z-index: 2;
+}
+
+
+.container2{
+    grid-area: 2 / 3 / 2 / 3;
+}
+
+.dropdown-menu a{
+	text-decoration:none
+}
+
+.dropdown-menu{
+    position:absolute;
+	top:100%;
+	left:0;
+	z-index:1000;
+	display:none;
+	float:left;
+	min-width:160px;
+	padding:5px 0;
+	margin:2px 0 0;
+	font-size:14px;
+	text-align:left;
+	list-style:none;
+	background-color:#fff;
+	-webkit-background-clip:padding-box;
+	background-clip:padding-box;
+	border:1px solid #ccc;
+	border:1px solid rgba(0,0,0,.15);
+	border-radius:4px;
+	-webkit-box-shadow:0 6px 12px rgba(0,0,0,.175);
+	box-shadow:0 6px 12px rgba(0,0,0,.175)
+}
+
+.dropdown,.dropup{
+	position:relative
+}
+
+.dropdown-menu>li>a{
+	display:block;
+	padding:3px 20px;
+	clear:both;
+	font-weight:400;
+	line-height:1.42857143;
+	color:#333;
+	white-space:nowrap
+}
+
+
+.dropdown-menu>li>a:focus,.dropdown-menu>li>a:hover{
+	color:#262626;
+	text-decoration:none;
+	background-color:#f5f5f5
+}
+
+
+.open>.dropdown-menu{
+	display:block
+}
+
+.btn{
+	display:inline-block;
+	padding:6px 12px;
+	margin-bottom:0;
+	font-size:14px;
+	font-weight:400;
+	line-height:1.42857143;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:middle;
+	-ms-touch-action:manipulation;
+	touch-action:manipulation;
+	cursor:pointer;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	background-image:none;
+	border:1px solid transparent;
+	border-radius:4px
+}
+
+
+.btn-primary{
+	color:#fff;
+	background-color:#337ab7;
+	border-color:#2e6da4
+}
+
+.btn-primary:hover{
+	color:#fff;
+	background-color:#286090;
+	border-color:#204d74
+}
+
+.caret{
+	display:inline-block;
+	width:0;
+	height:0;
+	margin-left:2px;
+	vertical-align:middle;
+	border-top:4px dashed;
+	border-top:4px solid\9;
+	border-right:4px solid transparent;
+	border-left:4px solid transparent
+}
 
 
 
@@ -954,19 +1022,7 @@ img {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* #region (Tablet queries) */
 
 /* Tablet query ////////////////// */
 /* Tablet query ////////////////// */
@@ -983,9 +1039,15 @@ img {
         display: none;
     }
 
+
+
 }
 
+/* #endregion */
 
+
+
+/* #region (Mobile queries) */
 
 /* Mobile query ////////////////// */
 /* Mobile query ////////////////// */
@@ -994,6 +1056,9 @@ img {
 
 @media only screen and (max-width: 600px) {
 
+    .wrapper {
+        width: 80%;
+    }
 
     #contact-formula {
         display: none;
@@ -1107,3 +1172,5 @@ img {
 }
 
 }
+
+/* #endregion */
