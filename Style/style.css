@@ -231,6 +231,7 @@ img {
 
 
 
+
 #contact-button {
     grid-area: 1 / 5 / 1 / 5;
     align-self: center;
@@ -949,6 +950,32 @@ img {
 /* Certificates /////////////////////////////////////////// */
 /* Certificates /////////////////////////////////////////// */
 
+#certificates-h2 {
+    grid-area: 3 / 2 / 3 / span 4;
+    text-align: center;
+}
+
+#certificates-linak-logo {
+    grid-area: 5 / 2 / 5 / 2;
+    width: 70%;
+    justify-self: center;
+    align-self: center;
+    border: 0px solid;
+    border-color: #9F16A4;
+}
+
+#certificates-linak-logo:hover {
+    transform: scale(1.01);
+    border: .15vw solid;
+    border-color: black;
+}
+
+#certificates-linak-text {
+    grid-area: 5 / 3 / span 2 / span 2;
+    background-color: orange;
+    height: 6vw;
+    width: 26vw;
+}
 
 
 /* #endregion */
@@ -983,6 +1010,8 @@ img {
     #test-pre-release2 {
         display: none;
     }
+
+
 
 }
 
