@@ -533,8 +533,7 @@ img {
 
 
 #bruhns-mode-text {
-    grid-area: 8 / 4 / span 2 / span 2;
-    margin-left: 2%;
+    grid-area: 8 / 4 / span 3 / span 2;
     font-size: .8vw;
 }
 
