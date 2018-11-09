@@ -369,32 +369,28 @@ img {
 
 #school-projects {
     grid-area: 3 / 4 / span 1 / span 2;
-    justify-self: center;
-    align-self: center;
-    white-space: nowrap;
+    max-width: 100%;
     width: 30%;
+    height: 20%;
     text-align: center;
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-    font-family: Georgia, serif;
-    font-weight: normal;
+    align-self: center;
+    justify-self: center;
+    background: rgb(29, 180, 226);
     text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
-    background: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
-    background: -moz-linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
-    background: -webkit-linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
-    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
-    border: 2px solid rgb(28, 110, 164);
+    padding: 8%;
+    color: black;
+    margin-top: 5%;
+    border-radius: 30px;
 }
 
 #school-projects:hover {
-    background: #1C6EA4;
+    background: rgb(0, 225, 255);
+    transform: scale(1.2);
+    z-index: 2;
 }
 
 #school-projects:active {
-    background: #9F16A4;
+    background: dodgerblue;
 }
 
 
@@ -403,32 +399,28 @@ img {
 
 #my-projects {
     grid-area: 3 / 2 / span 1 / span 2;
-    justify-self: center;
-    align-self: center;
-    white-space: nowrap;
+    max-width: 100%;
     width: 30%;
+    height: 20%;
     text-align: center;
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-    font-family: Georgia, serif;
-    font-weight: normal;
+    align-self: center;
+    justify-self: center;
+    background: rgb(29, 180, 226);
     text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
-    background: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
-    background: -moz-linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
-    background: -webkit-linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
-    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
-    border: 2px solid rgb(28, 110, 164);
+    padding: 8%;
+    color: black;
+    margin-top: 5%;
+    border-radius: 30px;
 }
 
 #my-projects:hover {
-    background: #1C6EA4;
+    background: rgb(0, 225, 255);
+    transform: scale(1.2);
+    z-index: 2;
 }
 
 #my-projects:active {
-    background: #9F16A4;
+    background: dodgerblue;
 }
 
 
@@ -531,32 +523,26 @@ img {
 
 #courses-button {
     grid-area: 3 / 2 / 3 / span 2;
-    width: 50%;
+    max-width: 100%;
     text-align: center;
     align-self: center;
     justify-self: center;
-    color: rgb(255, 255, 255);
-    padding: .1vw;
-    border-radius: 10px;
-    font-family: Georgia, serif;
-    font-weight: normal;
+    background: rgb(29, 180, 226);
     text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
-    background: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
-    background: -moz-linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
-    background: -webkit-linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
-    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
-    border: 2px solid rgb(28, 110, 164);
+    padding: 8%;
+    color: black;
+    margin-top: 5%;
+    border-radius: 30px;
 }
 
 #courses-button:hover {
-    background: #1C6EA4;
+    background: rgb(0, 225, 255);
+    transform: scale(1.2);
+    z-index: 2;
 }
 
 #courses-button:active {
-    background: #9F16A4;
+    background: dodgerblue;
 }
 
 
@@ -564,32 +550,26 @@ img {
 
 #certificates-button {
     grid-area: 4 / 2 / 4 / span 2;
-    width: 50%;
+    max-width: 100%;
     text-align: center;
     align-self: center;
     justify-self: center;
-    color: rgb(255, 255, 255);
-    padding: .1vw;
-    border-radius: 10px;
-    font-family: Georgia, serif;
-    font-weight: normal;
+    background: rgb(29, 180, 226);
     text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
-    background: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
-    background: -moz-linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
-    background: -webkit-linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 51%, rgb(159, 22, 164) 100%);
-    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
-    border: 2px solid rgb(28, 110, 164);
+    padding: 8%;
+    color: black;
+    margin-top: 5%;
+    border-radius: 30px;
 }
 
 #certificates-button:hover {
-    background: #1C6EA4;
+    background: rgb(0, 225, 255);
+    transform: scale(1.2);
+    z-index: 2;
 }
 
 #certificates-button:active {
-    background: #9F16A4;
+    background: dodgerblue;
 }
 
 
