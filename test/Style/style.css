@@ -771,6 +771,24 @@ img {
 }
 
 
+
+#some-ehacademy {
+    grid-area: 7 / 6 / 7 / 6;
+    animation: fadein 4.5s;
+    animation-delay: 4.5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    transition: all .2s ease-in-out;
+    justify-self: center;
+    align-self: center;
+}
+
+#some-ehacademy:hover {
+    transform: scale(1.5);
+    z-index: 2;
+}
+
+
 /* #endregion */
 
 
