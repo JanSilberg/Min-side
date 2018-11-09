@@ -857,6 +857,36 @@ img {
     transition: all .2s ease-in-out;
 }
 
+#courses-codeacademy-logo {
+    grid-area: 3 / 2 / 3 / 2;
+    animation-delay: 0s;
+    justify-self: center;
+}
+
+#courses-codeacademy-logo:hover {
+    animation: shake 0.82s;
+}
+
+
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
 
 /* #endregion */
 
