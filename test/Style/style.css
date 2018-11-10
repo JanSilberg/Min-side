@@ -153,14 +153,14 @@ img {
 #home-button {
     grid-area: 1 / 2 / 1 / 2;
     align-self: center;
-    width: 50%;
+    width: 30%;
     text-align: center;
     background: rgb(29, 180, 226);
     text-decoration: none;
-    padding: 8%;
+    padding: 3%;
     color: black;
-    margin-top: 5%;
     border-radius: 30px;
+    font-size: .7vw;
 }
 
 #home-button:hover {
@@ -180,14 +180,14 @@ img {
 #portfolio-button {
     grid-area: 1 / 3 / 1 / 3;
     align-self: center;
-    width: 50%;
+    width: 30%;
     text-align: center;
     background: rgb(29, 180, 226);
     text-decoration: none;
-    padding: 8%;
+    padding: 3%;
     color: black;
-    margin-top: 5%;
     border-radius: 30px;
+    font-size: .7vw;
 }
 
 #portfolio-button:hover {
@@ -207,15 +207,15 @@ img {
 #cv-button {
     grid-area: 1 / 4 / 1 / 4;
     align-self: center;
-    width: 50%;
+    width: 30%;
     text-align: center;
     background: rgb(29, 180, 226);
     text-decoration: none;
-    padding: 8%;
-    white-space: nowrap;
+    padding: 3%;
     color: black;
-    margin-top: 5%;
     border-radius: 30px;
+    font-size: .7vw;
+    white-space: nowrap
 }
 
 #cv-button:hover {
@@ -236,14 +236,14 @@ img {
 #contact-button {
     grid-area: 1 / 5 / 1 / 5;
     align-self: center;
-    width: 50%;
+    width: 30%;
     text-align: center;
     background: rgb(29, 180, 226);
     text-decoration: none;
-    padding: 8%;
+    padding: 3%;
     color: black;
-    margin-top: 5%;
     border-radius: 30px;
+    font-size: .7vw;
 }
 
 #contact-button:hover {
@@ -264,15 +264,14 @@ img {
 #link-button {
     grid-area: 1 / 6 / 1 / 6;
     align-self: center;
-    width: 50%;
-    height: auto;
+    width: 30%;
     text-align: center;
     background: rgb(29, 180, 226);
     text-decoration: none;
-    padding: 8%;
+    padding: 3%;
     color: black;
-    margin-top: 5%;
     border-radius: 30px;
+    font-size: .7vw;
 }
 
 #link-button:hover {
