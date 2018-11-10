@@ -147,6 +147,40 @@ img {
 
 
 
+nav {
+    grid-area: 1 / 1 / 1 / 7;
+    text-decoration: none;
+    justify-self: center;
+    width: 40%;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background: rgb(165, 165, 165);
+    height: 50%;
+    border-radius: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+    align-self: center;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+    box-shadow: .15em .1em orange;
+    text-shadow: .1em .1em black;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 
 
 
