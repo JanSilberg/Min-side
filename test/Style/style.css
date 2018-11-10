@@ -773,6 +773,10 @@ nav ul li a:hover {
     transition: all .2s ease-in-out;
 }
 
+#courses-codeacademy p {
+    background: white;
+}
+
 #courses-codeacademy-logo {
     grid-area: 3 / 2 / 3 / 2;
     animation-delay: 0s;
