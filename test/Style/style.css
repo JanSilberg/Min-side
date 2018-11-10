@@ -145,10 +145,6 @@ img {
     color: dodgerblue;
 }
 
-.page-logo {
-    grid-area: 1 / 6 / 1 / 6;
-    align-self: center;
-}
 
 
 nav {
