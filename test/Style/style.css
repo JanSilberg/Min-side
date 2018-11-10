@@ -249,22 +249,39 @@ nav ul li a:hover {
 /* Portfolio ////////////////////////////////////////////// */
 /* Portfolio ////////////////////////////////////////////// */
 
-#school-projects-bruhns-mode {
-    grid-area: 6 / 4 / span 2 / span 2;
-    width: 50%;
-    justify-self: center;
-    align-self: center;
-}
-
-
-
-
 #school-projects-bbvd {
     grid-area: 4 / 4 / span 2 / span 2;
     width: 50%;
     justify-self: center;
     align-self: center;
+    transition: all 1s ease-in-out;
 }
+
+#school-projects-bbvd:hover {
+    transform: scale(3) translate(-90px) rotate(-360deg);
+    z-index: 2;
+}
+
+
+
+
+#school-projects-bruhns-mode {
+    grid-area: 6 / 4 / span 2 / span 2;
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+    transition: all 1s ease-in-out;
+}
+
+#school-projects-bruhns-mode:hover {
+    transform: scale(3) translate(-90px) rotate(360deg);
+    z-index: 2;
+}
+
+
+
+
+
 
 
 
