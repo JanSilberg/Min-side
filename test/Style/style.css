@@ -426,15 +426,19 @@ nav ul li a:hover {
 #courses-button {
     grid-area: 3 / 2 / 3 / span 2;
     max-width: 100%;
+    width: 30%;
     text-align: center;
     align-self: center;
     justify-self: center;
-    background: rgb(29, 180, 226);
     text-decoration: none;
-    padding: 8%;
+    background: rgb(165, 165, 165);
     color: black;
-    margin-top: 5%;
-    border-radius: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+    box-shadow: .15em .1em orange;
+    text-shadow: .1em .1em black;
 }
 
 #courses-button:hover {
@@ -453,15 +457,19 @@ nav ul li a:hover {
 #certificates-button {
     grid-area: 4 / 2 / 4 / span 2;
     max-width: 100%;
+    width: 30%;
     text-align: center;
     align-self: center;
     justify-self: center;
-    background: rgb(29, 180, 226);
     text-decoration: none;
-    padding: 8%;
+    background: rgb(165, 165, 165);
     color: black;
-    margin-top: 5%;
-    border-radius: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+    box-shadow: .15em .1em orange;
+    text-shadow: .1em .1em black;
 }
 
 #certificates-button:hover {
