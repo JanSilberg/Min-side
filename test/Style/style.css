@@ -361,6 +361,11 @@ nav ul li a:hover {
     width: 80%;
     justify-self: right;
     align-self: center;
+    transition: all 1.8s ease-in-out;
+}
+
+#overview-alsion:hover {
+    transform: scale(1.8) translate(-33%, 25%)
 }
 
 
