@@ -4,8 +4,7 @@
     display: grid;
     width: 85%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     grid-auto-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 /* infinite rows / 6 columns */
@@ -146,7 +145,10 @@ img {
     color: dodgerblue;
 }
 
-
+.page-logo {
+    grid-area: 1 / 6 / 1 / 6;
+    align-self: center;
+}
 
 
 nav {
@@ -200,16 +202,14 @@ nav ul li a:hover {
 /* Home /////////////////////////////////////////////////// */
 
 #bio {
-    grid-area: 2 / 2 / span 4 / span 4;
+    grid-area: 3 / 2 / span 3 / span 4;
     justify-self: center;
     text-align: center;
-    font-size: 3vw;
-    font-family: 'Courier New', Courier, monospace
 }
 
 #bio p {
     font-size: .8vw;
-    
+    font-family: 'Courier New', Courier, monospace
 }
 
 
