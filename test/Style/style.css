@@ -19,6 +19,8 @@ body {
     font-size: 1vw;
     font-family: georgia, sans-serif;
     background: rgba(148, 148, 148, 0.26);
+    padding: 0;
+    margin: 0;
 } 
 
 
@@ -147,142 +149,40 @@ img {
 
 
 
-
-
-
-#home-button {
-    grid-area: 1 / 2 / 1 / 2;
-    align-self: center;
-    width: 30%;
-    text-align: center;
-    background: rgb(29, 180, 226);
+nav {
+    grid-area: 1 / 1 / 1 / 7;
     text-decoration: none;
-    padding: 3%;
-    color: black;
-    border-radius: 30px;
-    font-size: .7vw;
+    justify-self: center;
+    width: 40%;
 }
 
-#home-button:hover {
-    background: rgb(0, 225, 255);
-    transform: scale(1.2);
-    z-index: 2;
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background: rgb(165, 165, 165);
+    height: 50%;
+    border-radius: 20px;
 }
 
-#home-button:active {
-    background: dodgerblue;
-}
-
-
-
-
-
-#portfolio-button {
-    grid-area: 1 / 3 / 1 / 3;
+nav ul li {
+    list-style-type: none;
     align-self: center;
-    width: 30%;
     text-align: center;
-    background: rgb(29, 180, 226);
+}
+
+nav ul li a {
     text-decoration: none;
-    padding: 3%;
-    color: black;
-    border-radius: 30px;
-    font-size: .7vw;
+    color: white;
+    padding: 2%;
+    box-shadow: .15em .1em orange;
+    text-shadow: .1em .1em black;
 }
 
-#portfolio-button:hover {
-    background: rgb(0, 225, 255);
-    transform: scale(1.2);
-    z-index: 2;
+nav ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
 }
 
-#portfolio-button:active {
-    background: dodgerblue;
-}
-
-
-
-
-
-#cv-button {
-    grid-area: 1 / 4 / 1 / 4;
-    align-self: center;
-    width: 30%;
-    text-align: center;
-    background: rgb(29, 180, 226);
-    text-decoration: none;
-    padding: 3%;
-    color: black;
-    border-radius: 30px;
-    font-size: .7vw;
-    white-space: nowrap
-}
-
-#cv-button:hover {
-    background: rgb(0, 225, 255);
-    transform: scale(1.2);
-    z-index: 2;
-}
-
-#cv-button:active {
-    background: dodgerblue;
-}
-
-
-
-
-
-
-#contact-button {
-    grid-area: 1 / 5 / 1 / 5;
-    align-self: center;
-    width: 30%;
-    text-align: center;
-    background: rgb(29, 180, 226);
-    text-decoration: none;
-    padding: 3%;
-    color: black;
-    border-radius: 30px;
-    font-size: .7vw;
-}
-
-#contact-button:hover {
-    background: rgb(0, 225, 255);
-    transform: scale(1.2);
-    z-index: 2;
-}
-
-#contact-button:active {
-    background: dodgerblue;
-}
-
-
-
-
-
-
-#link-button {
-    grid-area: 1 / 6 / 1 / 6;
-    align-self: center;
-    width: 30%;
-    text-align: center;
-    background: rgb(29, 180, 226);
-    text-decoration: none;
-    padding: 3%;
-    color: black;
-    border-radius: 30px;
-    font-size: .7vw;
-}
-
-#link-button:hover {
-    background: rgb(0, 225, 255);
-    transform: scale(1.2);
-    z-index: 2;
-}
-
-#link-button:active {
-    background: dodgerblue;
-}
 
 
 
@@ -369,21 +269,23 @@ img {
     grid-area: 3 / 4 / span 1 / span 2;
     max-width: 100%;
     width: 30%;
-    height: 20%;
     text-align: center;
     align-self: center;
     justify-self: center;
-    background: rgb(29, 180, 226);
     text-decoration: none;
-    padding: 8%;
+    background: rgb(165, 165, 165);
     color: black;
-    margin-top: 5%;
-    border-radius: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+    box-shadow: .15em .1em orange;
+    text-shadow: .1em .1em black;
 }
 
 #school-projects:hover {
     background: rgb(0, 225, 255);
-    transform: scale(1.2);
+    transform: scale(1.1);
     z-index: 2;
 }
 
@@ -399,21 +301,23 @@ img {
     grid-area: 3 / 2 / span 1 / span 2;
     max-width: 100%;
     width: 30%;
-    height: 20%;
     text-align: center;
     align-self: center;
     justify-self: center;
-    background: rgb(29, 180, 226);
     text-decoration: none;
-    padding: 8%;
+    background: rgb(165, 165, 165);
     color: black;
-    margin-top: 5%;
-    border-radius: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+    box-shadow: .15em .1em orange;
+    text-shadow: .1em .1em black;
 }
 
 #my-projects:hover {
     background: rgb(0, 225, 255);
-    transform: scale(1.2);
+    transform: scale(1.1);
     z-index: 2;
 }
 
