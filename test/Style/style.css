@@ -202,20 +202,20 @@ nav ul li a:hover {
 /* Home /////////////////////////////////////////////////// */
 
 #bio {
-    grid-area: 3 / 2 / span 3 / span 4;
+    grid-area: 2 / 2 / span 4 / span 4;
     justify-self: center;
     text-align: center;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #bio p {
-    font-size: .8vw;
+    font-size: 1vw;
     font-family: 'Courier New', Courier, monospace
 }
 
 
-#bio img:hover {
-    animation: shake 1s;
-}
+
 
 
 
