@@ -213,6 +213,9 @@ nav ul li a:hover {
 }
 
 
+#bio img:hover {
+    animation: shake 1s;
+}
 
 
 
@@ -247,7 +250,7 @@ nav ul li a:hover {
 /* Portfolio ////////////////////////////////////////////// */
 
 #school-projects-bruhns-mode {
-    grid-area: 4 / 4 / span 2 / span 2;
+    grid-area: 6 / 4 / span 2 / span 2;
     width: 50%;
     justify-self: center;
     align-self: center;
@@ -257,7 +260,7 @@ nav ul li a:hover {
 
 
 #school-projects-bbvd {
-    grid-area: 6 / 4 / span 2 / span 2;
+    grid-area: 4 / 4 / span 2 / span 2;
     width: 50%;
     justify-self: center;
     align-self: center;
@@ -503,7 +506,9 @@ nav ul li a:hover {
 }
 
 
-
+.some-box {
+    width: 150px;
+}
 
 
 #some-linkedin {
