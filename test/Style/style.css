@@ -827,7 +827,13 @@ nav ul li a:hover {
 
 /* #endregion */
 
+/* #region Links (desktop) */
 
+#github-link {
+    grid-area: 4 / 5 / 4 /5;
+}
+
+/* #endregion */
 
 
 
