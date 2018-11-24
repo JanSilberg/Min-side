@@ -839,8 +839,60 @@ nav ul li a:hover {
     grid-area: 5 / 3 / span 2 / span 2;
     background-color: orange;
     height: 6vw;
-    width: 26vw;
+    width: 28vw;
 }
+
+#certificates-linak-certificate {
+    grid-area: 4 / 5 / span 3 / span 1;
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+    transition: all 1s ease-in-out;
+}
+
+#certificates-linak-certificate:hover {
+    transform: scale(4) translate(-75%, -5%);
+}
+
+/* /////////////////////////////////////// */
+
+#certificates-udemy-htmlforbeginners-logo {
+    grid-area: 7 / 2 / 7 / 2;
+    width: 55%;
+    justify-self: center;
+    align-self: center;
+    border: 0px solid;
+    border-color: #9F16A4;
+}
+
+#certificates-udemy-htmlforbeginners {
+    grid-area: 7 / 3 / span 2 / span 3;
+    background-color: orange;
+    height: 5vw;
+    width: 28vw;
+}
+
+#certificates-udemy-htmlforbeginners-logo:hover {
+    transform: scale(1.01);
+    border: .15vw solid;
+    border-color: black;
+}
+
+#certificates-udemy-htmlforbeginners-certificate {
+    grid-area: 6 / 5 / span 3 / span 1;
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+    transition: all 1s ease-in-out;
+}
+
+
+#certificates-udemy-htmlforbeginners-certificate:hover {
+    transform: scale(4) translate(-75%, -5%);
+}
+
+
+
 
 /* #endregion */
 
