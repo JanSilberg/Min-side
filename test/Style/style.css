@@ -858,7 +858,7 @@ nav ul li a:hover {
 
 #certificates-udemy-htmlforbeginners-logo {
     grid-area: 7 / 2 / 7 / 2;
-    width: 55%;
+    width: 50%;
     justify-self: center;
     align-self: center;
     border: 0px solid;
