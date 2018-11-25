@@ -187,6 +187,7 @@ nav ul li a:hover {
     text-align: center;
     font-size: 3em;
     font-family: 'Courier New', Courier, monospace;
+    color: #fc7233
 }
 
 #bio p {
@@ -202,13 +203,10 @@ nav ul li a:hover {
 }
 
 @keyframes shadow-pulse
-{
-     0% {
-          box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
-     }
-     100% {
-          box-shadow: 0 0 0 12px rgba(0, 0, 0, 0);
-     }
+    {
+     0% {box-shadow: 0px 0px 0px #8c43ff;}
+     50% {box-shadow: 0px 0px 30px #8c43ff;}
+     100% {box-shadow: 0px 0px 0px #8c43ff;}
 }
 
 
@@ -229,9 +227,20 @@ nav ul li a:hover {
 
 
 #home-whatdoido {
-    grid-area: 14 / 4 / span 5 / span 3;
-    margin-left: 3%;
+    grid-area: 14 / 4 / span 4 / span 3;
+    width: 80%;
+    height: 80%;
     font-family: Arial, Helvetica, sans-serif;
+    color: #fc7233;
+    box-shadow: 0px 0px 20px #8c43ff;
+}
+
+#home-whatdoido p {
+    margin-left: 2%;
+}
+
+#home-whatdoido h1 {
+    margin-left: 2%;
 }
 
 
@@ -249,6 +258,7 @@ nav ul li a:hover {
     text-align: left;
     margin-left: 3%;
     line-height: 0;
+    color: #fc7233;
 }
 
 #skill-css {
@@ -256,6 +266,7 @@ nav ul li a:hover {
     text-align: left;
     margin-left: 3%;
     line-height: 0;
+    color: #fc7233;
 }
 
 #skill-pre {
@@ -263,6 +274,7 @@ nav ul li a:hover {
     text-align: left;
     margin-left: 3%;
     line-height: 0;
+    color: #fc7233;
 }
 
 #skill-js {
@@ -270,6 +282,7 @@ nav ul li a:hover {
     text-align: left;
     margin-left: 3%;
     line-height: 0;
+    color: #fc7233;
 }
 
 #skill-ae {
@@ -277,6 +290,7 @@ nav ul li a:hover {
     text-align: left;
     margin-left: 3%;
     line-height: 0;
+    color: #fc7233;
 }
 
 
@@ -965,63 +979,9 @@ nav ul li a:hover {
 /* Home /////////////////////////////////////////////////// */
 /* Home /////////////////////////////////////////////////// */
 
-    /* #bio {
-        grid-area: 2 / 2 / span 2 / span 4;
-        margin-top: 5%;
-        font-size: 4vw;
-    }
-    
-    
-    
-    
-    
-    #bio-image {
-        grid-area: 4 / 2 / span 2 / span 4;
-        transition: none;
-    }
-   
-
-
-
-    #hr-line {
-        grid-area: 9 / 2 / span 1 / 6;
-    }
-
-    #downarrow {
-        grid-area: 7 / 3 / span 2 / span 2;
-    }
-
-
-    #home-whatdoido {
-        grid-area: 11 / 4 / span 5 / span 3;
-    }
-    
-        
-    #jansilberg-photo {
-        grid-area: 11 / 2 / span 5 / span 1;
-    }
-    
-    
-    #skill-html {
-        grid-area: 11 / 3 / span 1 / span 1;
-    }
-    
-    #skill-css {
-        grid-area: 12 / 3 / span 1 / span 1;
-    }
-    
-    #skill-pre {
-        grid-area: 13 / 3 / span 1 / span 1;
-    }
-    
-    #skill-js {
-        grid-area: 14 / 3 / span 1 / span 1;
-    }
-    
-    #skill-ae {
-        grid-area: 15 / 3 / span 1 / span 1;
-    } */
-
+#home-whatdoido {
+    grid-area: 14 / 4 / span 5 / span 3;
+}
 
 
 
