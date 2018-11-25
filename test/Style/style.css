@@ -398,7 +398,7 @@ nav ul li a:hover {
 
 
 
-#bbvd-text-criterias {
+#bbvd-text-criteria {
     grid-area: 13 / 4 / span 2 / span 2;
     background: #fc7233;
     box-shadow: 10px 10px 15px;
@@ -407,11 +407,11 @@ nav ul li a:hover {
     width: 105%
 }
 
-#bbvd-text-criterias p {
+#bbvd-text-criteria p {
     margin-left: 2%;
 }
 
-#bbvd-text-criterias h3 {
+#bbvd-text-criteria h3 {
     margin-left: 2%;
 }
 
