@@ -929,15 +929,13 @@ nav ul li a:hover {
 
 
 
-    #downarrow {
-        grid-area: 7 / 3 / span 2 / span 2;
-    }
+
 
 /* Home /////////////////////////////////////////////////// */
 /* Home /////////////////////////////////////////////////// */
 /* Home /////////////////////////////////////////////////// */
 
-    #bio {
+    /* #bio {
         grid-area: 2 / 2 / span 2 / span 4;
         margin-top: 5%;
         font-size: 4vw;
@@ -959,7 +957,9 @@ nav ul li a:hover {
         grid-area: 9 / 2 / span 1 / 6;
     }
 
-
+    #downarrow {
+        grid-area: 7 / 3 / span 2 / span 2;
+    }
 
 
     #home-whatdoido {
@@ -990,7 +990,7 @@ nav ul li a:hover {
     
     #skill-ae {
         grid-area: 15 / 3 / span 1 / span 1;
-    }
+    } */
 
 
 
