@@ -45,28 +45,6 @@ img {
 }
 
 
-#feedback-button {
-    grid-area: 2 / 1 / 2 / 1;
-    align-self: center;
-    justify-self: center;
-    font-size: 1vw;
-    width: 70%;
-    text-align: center;
-    background: rgb(255, 30, 0);
-    text-decoration: none;
-    padding: 8%;
-    color: black;
-    border-radius: 30px;
-    font-weight: bold;
-    letter-spacing: .1vw;
-}
-
-#feedback-button:hover {
-    background: rgb(255, 30, 0);
-    transform: scale(1.2);
-    z-index: 2;
-}
-
 
 #page-name-feedback {
     grid-area: 2 / 2 / 2 / 2;
@@ -225,7 +203,7 @@ nav ul li a:hover {
 }
 
 #bio-image:hover {
-    transform: scale(.8);
+    transform: scale(1.4);
 }
 
 
@@ -236,6 +214,14 @@ nav ul li a:hover {
 }
 
 
+
+
+#downarrow {
+    grid-area: 10 / 3 / span 2 / span 2;
+    width: 20%;
+    justify-self: center;
+    align-self: center;
+}
 /* #endregion */
 
 
