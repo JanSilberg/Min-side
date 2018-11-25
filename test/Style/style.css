@@ -929,7 +929,9 @@ nav ul li a:hover {
 
 
 
-    
+    #downarrow {
+        grid-area: 7 / 3 / span 2 / span 2;
+    }
 
 /* Home /////////////////////////////////////////////////// */
 /* Home /////////////////////////////////////////////////// */
@@ -950,6 +952,45 @@ nav ul li a:hover {
         transition: none;
     }
    
+
+
+
+    #hr-line {
+        grid-area: 9 / 2 / span 1 / 6;
+    }
+
+
+
+
+    #home-whatdoido {
+        grid-area: 11 / 4 / span 5 / span 3;
+    }
+    
+        
+    #jansilberg-photo {
+        grid-area: 11 / 2 / span 5 / span 1;
+    }
+    
+    
+    #skill-html {
+        grid-area: 11 / 3 / span 1 / span 1;
+    }
+    
+    #skill-css {
+        grid-area: 12 / 3 / span 1 / span 1;
+    }
+    
+    #skill-pre {
+        grid-area: 13 / 3 / span 1 / span 1;
+    }
+    
+    #skill-js {
+        grid-area: 14 / 3 / span 1 / span 1;
+    }
+    
+    #skill-ae {
+        grid-area: 15 / 3 / span 1 / span 1;
+    }
 
 
 
