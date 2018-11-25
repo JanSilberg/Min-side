@@ -188,11 +188,6 @@ nav ul li a:hover {
     font-family: 'Courier New', Courier, monospace
 }
 
-
-
-
-
-
 #bio-image {
     grid-area: 6 / 2 / span 4 / span 4;
     justify-self: center;
@@ -200,12 +195,15 @@ nav ul li a:hover {
     width: 49%;
 }
 
-
-
-
-
-
-
+@keyframes shadow-pulse
+{
+     0% {
+          box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+     }
+     100% {
+          box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+     }
+}
 
 
 #downarrow {
@@ -213,12 +211,13 @@ nav ul li a:hover {
     width: 20%;
     justify-self: center;
     align-self: center;
+    animation: shadow-pulse 3s infinite;
 }
 
 
 
-#home-maintenance {
-    grid-area: 14 / 3 / span 5 / span 3;
+#home-whatdoido {
+    grid-area: 14 / 4 / span 5 / span 3;
     margin-left: 3%;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -229,6 +228,47 @@ nav ul li a:hover {
 #jansilberg-photo {
     grid-area: 14 / 2 / span 5 / span 1;
 }
+
+
+
+
+#skill-html {
+    grid-area: 14 / 3 / span 1 / span 1;
+    text-align: left;
+    margin-left: 3%;
+}
+
+#skill-css {
+    grid-area: 15 / 3 / span 1 / span 1;
+    text-align: left;
+    margin-left: 3%;
+}
+
+#skill-pre {
+    grid-area: 16 / 3 / span 1 / span 1;
+    text-align: left;
+    margin-left: 3%;
+}
+
+#skill-maya {
+    grid-area: 17 / 3 / span 1 / span 1;
+    text-align: left;
+    margin-left: 3%;
+}
+
+#skill-js {
+    grid-area: 18 / 3 / span 1 / span 1;
+    text-align: left;
+    margin-left: 3%;
+}
+
+#skill-ae {
+    grid-area: 19 / 3 / span 1 / span 1;
+    text-align: left;
+    margin-left: 3%;
+}
+
+
 
 /* #endregion */
 
