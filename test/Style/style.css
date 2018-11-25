@@ -126,7 +126,7 @@ a:visited {
     grid-area: 1 / 1 / 1 / 1;
     align-self: center;
     text-align: center;
-    color: dodgerblue;
+    color: #8c43ff;
 }
 
 
@@ -141,7 +141,7 @@ nav {
 nav ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    background: rgb(165, 165, 165);
+    background: #8c43ff;
     height: 50%;
     border-radius: 20px;
     padding: 0;
