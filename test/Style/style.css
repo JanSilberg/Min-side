@@ -201,7 +201,7 @@ nav ul li a:hover {
           box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
      }
      100% {
-          box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 0 12px rgba(0, 0, 0, 0);
      }
 }
 
@@ -212,6 +212,12 @@ nav ul li a:hover {
     justify-self: center;
     align-self: center;
     animation: shadow-pulse 3s infinite;
+}
+
+#hr-line {
+    grid-area: 12 / 2 / 12 / 6;
+    width: 100%;
+    height: 0;
 }
 
 
@@ -236,36 +242,35 @@ nav ul li a:hover {
     grid-area: 14 / 3 / span 1 / span 1;
     text-align: left;
     margin-left: 3%;
+    line-height: 0;
 }
 
 #skill-css {
     grid-area: 15 / 3 / span 1 / span 1;
     text-align: left;
     margin-left: 3%;
+    line-height: 0;
 }
 
 #skill-pre {
     grid-area: 16 / 3 / span 1 / span 1;
     text-align: left;
     margin-left: 3%;
-}
-
-#skill-maya {
-    grid-area: 17 / 3 / span 1 / span 1;
-    text-align: left;
-    margin-left: 3%;
+    line-height: 0;
 }
 
 #skill-js {
-    grid-area: 18 / 3 / span 1 / span 1;
+    grid-area: 17 / 3 / span 1 / span 1;
     text-align: left;
     margin-left: 3%;
+    line-height: 0;
 }
 
 #skill-ae {
-    grid-area: 19 / 3 / span 1 / span 1;
+    grid-area: 18 / 3 / span 1 / span 1;
     text-align: left;
     margin-left: 3%;
+    line-height: 0;
 }
 
 
