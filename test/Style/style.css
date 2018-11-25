@@ -356,7 +356,7 @@ nav ul li a:hover {
     color: black;
     font-style: italic;
     align-self: baseline;
-    background-color: #fc7233;
+    background-color: #8c43ff;
 }
 
 
@@ -379,7 +379,7 @@ nav ul li a:hover {
 
 
 
-#bbvd-text {
+#bbvd-text-project-info {
     grid-area: 8 / 2 / span 3 / span 2;
     font-size: .8vw;
     background: #fc7233;
@@ -390,7 +390,7 @@ nav ul li a:hover {
 
 
 
-#bbvd-text-2 {
+#bbvd-text-criterias {
     grid-area: 11 / 4 / span 2 / span 2;
     background: #fc7233;
     box-shadow: 10px 10px 15px;
