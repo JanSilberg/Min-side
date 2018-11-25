@@ -380,28 +380,45 @@ nav ul li a:hover {
 
 
 #bbvd-text-project-info {
-    grid-area: 8 / 2 / span 3 / span 2;
+    grid-area: 9 / 2 / span 3 / span 2;
     font-size: .8vw;
     background: #fc7233;
     box-shadow: 10px 10px 15px;
     height: 93%;
 }
 
+#bbvd-text-project-info p {
+    margin-left: 2%;
+}
+
+#bbvd-text-project-info h3 {
+    margin-left: 2%;
+}
+
 
 
 
 #bbvd-text-criterias {
-    grid-area: 11 / 4 / span 2 / span 2;
+    grid-area: 13 / 4 / span 2 / span 2;
     background: #fc7233;
     box-shadow: 10px 10px 15px;
     font-size: .8vw;
     height: 85%;
+    width: 105%
+}
+
+#bbvd-text-criterias p {
+    margin-left: 2%;
+}
+
+#bbvd-text-criterias h3 {
+    margin-left: 2%;
 }
 
 
 
 #bbvd-text-patch {
-    grid-area: 8 / 4 / span 2 / span 2;
+    grid-area: 9 / 4 / span 2 / span 2;
     justify-self: center;
     text-align: center;
     align-self: center;
@@ -413,11 +430,12 @@ nav ul li a:hover {
 
 #bbvd-text-patch p {
     text-align: left;
+    margin-left: 2%;
 }
 
 
 .github-link {
-    grid-area: 11 / 2 / span 2 / span 2;
+    grid-area: 13 / 2 / span 2 / span 2;
     width: 15%;
     font-size: .8vw;
     white-space: nowrap;
