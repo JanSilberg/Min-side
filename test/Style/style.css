@@ -17,7 +17,7 @@
 body {
     font-size: 1vw;
     font-family: georgia, sans-serif;
-    background: rgba(148, 148, 148, 0.26);
+    background: #444649;
     padding: 0;
     margin: 0 auto;
 } 
@@ -374,7 +374,8 @@ nav ul li a:hover {
 #bbvd-text {
     grid-area: 8 / 2 / span 3 / span 2;
     font-size: .8vw;
-    background: orange;
+    background: #fc7233;
+    box-shadow: 10px 10px 10px;
     height: 93%;
 }
 
