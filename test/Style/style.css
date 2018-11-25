@@ -205,10 +205,6 @@ nav ul li a:hover {
 
 
 
-.twitter-timeline {
-    grid-area: 9 / 6 / span 5 / 6;
-}
-
 
 
 
@@ -926,10 +922,7 @@ nav ul li a:hover {
         display: none;
     }
 
-    .twitter-timeline {
-        position: absolute;
-        left: -400px;
-    }
+
 
 }
 
