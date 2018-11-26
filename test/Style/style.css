@@ -208,7 +208,6 @@ nav ul li a:hover {
     width: 20%;
     justify-self: center;
     align-self: center;
-    animation: shadow-pulse 3s infinite;
 }
 
 #hr-line {
