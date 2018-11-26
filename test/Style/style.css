@@ -277,14 +277,6 @@ nav ul li a:hover {
     color: #fc7233;
 }
 
-#skill-ae {
-    grid-area: 18 / 3 / span 1 / span 1;
-    text-align: left;
-    margin-left: 3%;
-    line-height: 0;
-    color: #fc7233;
-}
-
 
 
 /* #endregion */
