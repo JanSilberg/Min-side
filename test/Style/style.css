@@ -224,7 +224,7 @@ nav ul li a:hover {
     height: 80%;
     font-family: Arial, Helvetica, sans-serif;
     color: #fc7233;
-    box-shadow: 0px 0px 20px #8c43ff;
+    box-shadow: 0px 0px 20px #8c43ff, inset 0px 0px 20px #8c43ff;
 }
 
 #home-whatdoido p {
