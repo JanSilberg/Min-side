@@ -724,7 +724,8 @@ nav ul li a:hover {
 
 #contact-text {
     grid-area: 3 / 2 / 3 / span 4;
-    text-align: center
+    text-align: center;
+    color: #fc7233;
 }
 
 
