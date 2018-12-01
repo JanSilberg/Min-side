@@ -917,6 +917,43 @@ nav ul li a:hover {
     grid-area: 4 / 5 / 4 /5;
 }
 
+#css-cleaner {
+    grid-area: 3 / 4 / 3 / 4;
+    text-decoration: none;
+    color: #fc7233;
+    background: black;
+    border-radius: 30px;
+    border: .8vw solid black;
+    box-shadow: 0px 0px 15px  #fc7233;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+#css-cleaner:hover {
+    transform: scale(1.1)
+}
+
+
+#css-validation {
+    grid-area: 4 / 4 / 4 / 4;
+    text-decoration: none;
+    color: #fc7233;
+    background: black;
+    border-radius: 30px;
+    border: .8vw solid black;
+    box-shadow: 0px 0px 15px  #fc7233;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+#css-validation:hover {
+    transform: scale(1.1)
+}
+
+
+
 /* #endregion */
 
 
