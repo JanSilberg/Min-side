@@ -326,6 +326,7 @@ nav ul li a:hover {
 #portfolio-text {
     grid-area: 2 / 2 / span 2 / span 4;
     text-align: center;
+    color: #fc7233;
 }
 
 /* #endregion */

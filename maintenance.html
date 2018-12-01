@@ -2,10 +2,10 @@
 <title>Jan Silberg - Site Maintenance</title>
 <style>
   body { text-align: center; padding: 150px; background-color: black; color: white;}
-  h1 { font-size: 50px; }
-  body { font: 20px Helvetica, sans-serif; color: white; }
-  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
-
+  h1 { font-size: 3vw; }
+  body { font: 1vw Helvetica, sans-serif; color: white; }
+  article { display: block; text-align: left; width: 650px; margin: 0 50%; }
+iframe {position: absolute; left: 5%; top: 15%;}
   
 </style>
 
@@ -14,9 +14,17 @@
     <div>
         <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. </p>
         <p>We will be back online shortly!</p>
-        <p>&mdash; Team of certified monkeys</p>
+        <p>&mdash; Development team</p>
     </div>
 
 
-        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="788.54" height="443" type="text/html" src="https://www.youtube.com/embed/zLMeDUBKmBs?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"><div><small><a href="https://youtubeembedcode.com/en">Going Here</a></small></div><div><small><a href="https://promocode.com.ph/">ww://promocode.com.ph/</a></small></div></iframe>
+    <button onclick="goBack()">Go Back</button>
+
+    <iframe width="640" height="640" src="https://cybermap.kaspersky.com/en/widget/dynamic/dark" frameborder="0"></iframe>
+
+    <script>
+    function goBack() {
+        window.history.back();
+    }
+    </script> 
 </article>
