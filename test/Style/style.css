@@ -742,6 +742,7 @@ nav ul li a:hover {
 #contact-facebook-text {
     grid-area: 5 / 3 / 5 / span 2;
     align-self: center;
+    color: #fc7233;
 }
 
 
@@ -752,11 +753,13 @@ nav ul li a:hover {
     grid-area: 6 / 4 / 6 / 4;
     align-self: center;
     text-align: center;
+    color: #fc7233;
 }
 
 #contact-email-text {
     grid-area: 6 / 3 / 6 / 3;
     align-self: center;
+    color: #fc7233;
 }
 
 
