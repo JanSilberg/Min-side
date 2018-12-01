@@ -928,6 +928,7 @@ nav ul li a:hover {
     text-align: center;
     justify-self: center;
     align-self: center;
+    font-size: .8vw;
 }
 
 #css-cleaner:hover {
@@ -946,6 +947,7 @@ nav ul li a:hover {
     text-align: center;
     justify-self: center;
     align-self: center;
+    font-size: .8vw;
 }
 
 #css-validation:hover {
@@ -964,6 +966,7 @@ nav ul li a:hover {
     text-align: center;
     justify-self: center;
     align-self: center;
+    font-size: .8vw;
 }
 
 #youtube-embed:hover {
@@ -982,6 +985,7 @@ nav ul li a:hover {
     text-align: center;
     justify-self: center;
     align-self: center;
+    font-size: .8vw;
 }
 
 #css-cheatsheet:hover {
