@@ -1,1 +1,0 @@
-No text documentation for the old design, since it was done before I knew anything about processes etc.
