@@ -11,7 +11,7 @@ Master = jansilberg.com (LIVE)
 
 Changes will happen directly to master instead of "test" branch - Update as of 7th of November 2018
 
-
+<br><br><br><br><br><br><br>
 
 ### 1. step - Analysis 
 - Website purpose
