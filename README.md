@@ -44,7 +44,7 @@ Changes will happen directly to master instead of "test" branch - Update as of 7
 - Browser compatibility
 - "Does the site fulfill its purpose?"
 
-## 7. step - Deployment
+### 7. step - Deployment
 - Monitoring (that everything works)
 - Bug fixes
 - Maintenance (future patches, features etc.)
