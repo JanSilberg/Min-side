@@ -6,3 +6,6 @@ Page should be mainly white, blue and green since that's what women and men like
 White: #ffffff
 Blue: #3c579d
 Green: #69aa42
+
+
+Yellow (For warnings): #fff700
