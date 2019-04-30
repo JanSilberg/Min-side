@@ -147,7 +147,7 @@ p{
 #skill-html {
 	grid-area: 4 / 3 / span 1 / span 1;
 	text-align: left;
-	margin-left: 3%;
+	margin-left: -7%;
 	line-height: 1.0em;
 	color: #fc7233;
 	font-size: 16px;
@@ -160,7 +160,7 @@ p{
 #skill-css {
 	grid-area: 4 / 3 / span 2 / span 1;
 	text-align: left;
-	margin-left: 3%;
+	margin-left: -7%;
 	line-height: 1.0em;
 	align-self: center;
 	color: #fc7233;
@@ -174,7 +174,7 @@ p{
 #skill-pre {
 	grid-area: 5 / 3 / span 1 / span 1;
 	text-align: left;
-	margin-left: 3%;
+	margin-left: -7%;
 	margin-top: 14%;
 	line-height: 1.0em;
 	color: #fc7233;
@@ -188,7 +188,7 @@ p{
 #skill-js {
 	grid-area: 6 / 3 / span 1 / span 1;
 	text-align: left;
-	margin-left: 3%;
+	margin-left: -7%;
 	margin-top: 4%;
 	line-height: 1.0em;
 	color: #fc7233;
