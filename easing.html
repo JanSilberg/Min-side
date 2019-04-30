@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Jan Silberg - www.jansilberg.com</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage demo easing effect." />
+	<meta name="keywords" content="fullpage,jquery,demo,easing,effect,jqueui" />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="dist/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+</head>
+
+<body>
+
+	<ul id="menu">
+		<li data-menuanchor="homePage"><a href="#homePage">Home</a></li>
+		<li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
+		<li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
+	</ul>
+
+	<div id="fullpage">
+		<div class="section " id="section0">
+			<h1>Jan Silberg</h1>
+			<p>Develop, Secure, do it again and then once more!</p>
+			<br />
+			<img src="assets/img/jansilberg.jpg" class="site-images">
+		</div>
+		<div class="section" id="section1">
+			<div class="content-wrapper intro">
+				<h1 id="center-text">Qualifications</h1>
+				<article id="home-whatdoido">
+					<h2>What do I do?</h2>
+					<p>I do front-end development with HTML and CSS.</p>
+					<p>My first functional self-made website is the one you're looking at right now.</p>
+					<p>As I learn more code, I will implement it into my website here.</p>
+					<p style="line-height: 5vw;">I also like to take make videos and take pictures.</p>
+				</article>
+
+				<div id="skill-html">
+					<p>HTML</p>
+					<progress value="80" max="100"></progress>
+				</div>
+
+				<div id="skill-css">
+					<p>CSS</p>
+					<progress value="70" max="100"></progress>
+				</div>
+
+				<div id="skill-pre">
+					<p>Premiere Pro</p>
+					<progress value="35" max="100"></progress>
+				</div>
+
+				<div id="skill-js">
+					<p>Javascript</p>
+					<progress value="2" max="100"></progress>
+				</div>
+
+
+				<img id="jansilberg-photo" src="assets/img/jansilberg2.jpg" alt="">
+			</div>
+		</div>
+		<div class="section" id="section2">
+			<div class="intro">
+				<h1>Cool uh?</h1>
+				<p>Choose the best easing effect for your site!</p>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="dist/fullpage.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+	<script type="text/javascript">
+		var myFullpage = new fullpage('#fullpage', {
+			sectionsColor: ['#3C579D', '#47b192', '#7BAABE', 'whitesmoke', '#ccddff'],
+			anchors: ['homePage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+			menu: '#menu',
+
+
+		});
+	</script>
+
+</body>
+
+</html>
