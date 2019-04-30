@@ -148,7 +148,7 @@ p{
 	grid-area: 4 / 3 / span 1 / span 1;
 	text-align: left;
 	margin-left: 3%;
-	line-height: 1.5em;
+	line-height: 1.0em;
 	color: #fc7233;
 	font-size: 16px;
 }
@@ -158,10 +158,11 @@ p{
 }
 
 #skill-css {
-	grid-area: 5 / 3 / span 1 / span 1;
+	grid-area: 4 / 3 / span 2 / span 1;
 	text-align: left;
 	margin-left: 3%;
-	line-height: 1.5em;
+	line-height: 1.0em;
+	align-self: center;
 	color: #fc7233;
 	font-size: 16px;
 }
@@ -171,10 +172,11 @@ p{
 }
 
 #skill-pre {
-	grid-area: 6 / 3 / span 1 / span 1;
+	grid-area: 5 / 3 / span 1 / span 1;
 	text-align: left;
 	margin-left: 3%;
-	line-height: 1.5em;
+	margin-top: 14%;
+	line-height: 1.0em;
 	color: #fc7233;
 	font-size: 16px;
 }
@@ -184,17 +186,23 @@ p{
 }
 
 #skill-js {
-	grid-area: 7 / 3 / span 1 / span 1;
+	grid-area: 6 / 3 / span 1 / span 1;
 	text-align: left;
 	margin-left: 3%;
-	line-height: 1.5em;
+	margin-top: 4%;
+	line-height: 1.0em;
 	color: #fc7233;
 	font-size: 16px;
+}
+
+#skill-js p{
+	font-size: 22px;
 }
 
 #jansilberg-photo {
 	grid-area: 4 / 2 / span 5 / span 1;
 	border-radius: 5px;
+	width: 80%;
 }
 
 img{
@@ -215,9 +223,8 @@ progress {
 
 progress::-moz-progress-bar {
     border-radius: 5px;
-    background: #438672;
+    background: #68f1c8;
     box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.4), 0 2px 5px 0px rgba(0, 0, 0, 0.3);
-
 }
 
 progress::-webkit-progress-bar {
