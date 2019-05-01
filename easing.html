@@ -27,6 +27,7 @@
 			<li data-menuanchor="qualPage"><a href="#qualPage">Qualifications</a></li>
 			<li data-menuanchor="portfolioPage"><a href="#portfolioPage">Portfolio</a></li>
 			<li data-menuanchor="cvPage"><a href="#cvPage">CV</a></li>
+			<li data-menuanchor="contactPage"><a href="#contactPage">Contact</a></li>
 		</ul>
 	</nav>
 
@@ -79,20 +80,25 @@
 					<p>Here you can see some of the project that I have been involved with</p>
 					<p>By clicking the images you will be taken to the individual pages where you can read more</p>
 				</article>
-		
+
 				<a id="projects-bbvd" href="https://jansilberg.com/Projects/Big-bad-voodo-daddy/Home.html">
-					<img  src="assets/img/bigbadvoododaddy.png" alt="Picture of project for big bad voodo daddy">
+					<img src="assets/img/bigbadvoododaddy.png" alt="Picture of project for big bad voodo daddy">
 				</a>
-		
+
 				<a id="projects-bruhns-mode" href="https://jansilberg.com/Projects/Bruhns-mode/Programmering/Frontpage.html">
-					<img  src="assets/img/bruhns-mode.png" alt="Picture of project for Bruhns mode">
+					<img src="assets/img/bruhns-mode.png" alt="Picture of project for Bruhns mode">
 				</a>
-		
+
 			</section>
 		</section>
 		<section class="section" id="section3">
-			<section class="content-wrapper intro">
-				
+			<section class="intro">
+				<h1>CV</h1>
+			</section>
+		</section>
+		<section class="section" id="section4">
+			<section class="intro">
+				<h1>Contact</h1>
 			</section>
 		</section>
 	</section>
@@ -100,11 +106,12 @@
 	<script type="text/javascript" src="dist/fullpage.js"></script>
 	<script type="text/javascript">
 		var myFullpage = new fullpage('#fullpage', {
-			sectionsColor: ['#3C579D', '#47b192', '#d97d4a', '#d74747', '#ccddff'],
-			anchors: ['homePage', 'qualPage', 'portfolioPage', 'cvPage', 'lastPage'],
+			sectionsColor: ['#3C579D', '#47b192', '#d97d4a', '#d74747', '#733cbe'],
+			anchors: ['homePage', 'qualPage', 'portfolioPage', 'cvPage', 'contactPage'],
+			navigation: true,
+			navigationPosition: 'right',
+			navigationTooltips: ['Home', 'Qualifications', 'Portfolio', 'CV', 'Contact'],
 			menu: '#menu',
-
-
 		});
 	</script>
 

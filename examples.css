@@ -127,6 +127,18 @@ p{
 #section2 h1{
 	color: #FFF;
 }
+#section3 p{
+	color: #FFF;
+}
+#section3 h1{
+	color: #FFF;
+}
+#section4 p{
+	color: #FFF;
+}
+#section4 h1{
+	color: #FFF;
+}
 #center-text {
 	grid-area: 2 / 2 / span 4 / span 4;
 	justify-self: center;
