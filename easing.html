@@ -21,22 +21,23 @@
 </head>
 
 <body>
+	<nav>
+		<ul id="menu">
+			<li data-menuanchor="homePage"><a href="#homePage">Home</a></li>
+			<li data-menuanchor="qualPage"><a href="#qualPage">Qualifications</a></li>
+			<li data-menuanchor="portfolioPage"><a href="#portfolioPage">Portfolio</a></li>
+		</ul>
+	</nav>
 
-	<ul id="menu">
-		<li data-menuanchor="homePage"><a href="#homePage">Home</a></li>
-		<li data-menuanchor="secondPage"><a href="#secondPage">Qualifications</a></li>
-		<li data-menuanchor="3rdPage"><a href="#3rdPage">My Work</a></li>
-	</ul>
-
-	<div id="fullpage">
-		<div class="section " id="section0">
+	<section id="fullpage">
+		<section class="section " id="section0">
 			<h1>Jan Silberg</h1>
 			<p>Develop, Secure, do it again and then once more!</p>
 			<br />
 			<img src="assets/img/jansilberg.jpg" class="site-images">
-		</div>
-		<div class="section" id="section1">
-			<div class="content-wrapper intro">
+		</section>
+		<section class="section" id="section1">
+			<section class="content-wrapper intro">
 				<h1 id="center-text">Qualifications</h1>
 				<article id="home-whatdoido">
 					<h2>What do I do?</h2>
@@ -46,44 +47,44 @@
 					<p style="line-height: 5vw;">I also like to take make videos and take pictures.</p>
 				</article>
 
-				<div id="skill-html">
+				<section id="skill-html">
 					<p>HTML</p>
 					<progress value="80" max="100"></progress>
-				</div>
+				</section>
 
-				<div id="skill-css">
+				<section id="skill-css">
 					<p>CSS</p>
 					<progress value="75" max="100"></progress>
-				</div>
+				</section>
 
-				<div id="skill-pre">
+				<section id="skill-pre">
 					<p>Premiere Pro</p>
 					<progress value="55" max="100"></progress>
-				</div>
+				</section>
 
-				<div id="skill-js">
+				<section id="skill-js">
 					<p>Javascript</p>
 					<progress value="23" max="100"></progress>
-				</div>
+				</section>
 
 
 				<img id="jansilberg-photo" src="assets/img/jansilberg2.jpg" alt="">
-			</div>
-		</div>
-		<div class="section" id="section2">
-			<div class="intro">
+			</section>
+		</section>
+		<section class="section" id="section2">
+			<section class="intro">
 				<h1>Cool uh?</h1>
 				<p>Choose the best easing effect for your site!</p>
-			</div>
-		</div>
-	</div>
+			</section>
+		</section>
+	</section>
 
 	<script type="text/javascript" src="dist/fullpage.js"></script>
 	<script type="text/javascript" src="examples.js"></script>
 	<script type="text/javascript">
 		var myFullpage = new fullpage('#fullpage', {
-			sectionsColor: ['#3C579D', '#47b192', '#7BAABE', 'whitesmoke', '#ccddff'],
-			anchors: ['homePage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+			sectionsColor: ['#3C579D', '#47b192', '#d97d4a', 'whitesmoke', '#ccddff'],
+			anchors: ['homePage', 'qualPage', 'portfolioPage', '4thpage', 'lastPage'],
 			menu: '#menu',
 
 
