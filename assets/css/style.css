@@ -170,7 +170,7 @@ p {
 
 #home-whatdoido p {
     margin-left: 2%;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 
@@ -267,6 +267,10 @@ p {
 #portfolio-text {
     grid-area: 2 / 2 / span 2 / span 4;
     text-align: center;
+}
+
+.portfolio-pClicking {
+    font-size: 1em;
 }
 
 
@@ -397,7 +401,7 @@ p {
     background: #5e25b9;
   }
 
-  
+
 /* #endregion */
 
 /* #region Link CSS * --------------------------------------- */
