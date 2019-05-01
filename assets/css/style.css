@@ -146,6 +146,12 @@ p {
     color: #FFF;
 }
 
+.wc3-css {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+}
+
 /* #endregion */
 
 /* #region Qualifications CSS * --------------------------------------- */
