@@ -1,5 +1,4 @@
-/* Reset CSS
- * --------------------------------------- */
+/* #region Reset CSS * --------------------------------------- */
 
 blockquote,body,dd,div,dl,dt,
 fieldset,form,h1,h2,h3,h4,h5,
@@ -19,8 +18,9 @@ h1 {
     color: #444;
 }
 
-/* Main Layout
- * --------------------------------------- */
+/* #endregion */
+
+/* #region Main Layout * --------------------------------------- */
 body {
     font-family: arial, helvetica;
     color: #333;
@@ -68,9 +68,9 @@ p {
     border-radius: 5px;
 }
 
+/* #endregion */
 
-/* Navigation
- * --------------------------------------- */
+/* #region Navigation * --------------------------------------- */
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
     background: #FFF;
@@ -134,9 +134,10 @@ p {
     margin: 0;
 }
 
+/* #endregion */
 
-/* Home CSS
- * --------------------------------------- */
+
+/* #region Home CSS * --------------------------------------- */
 #section0 h1 {
     color: #FFF;
 }
@@ -145,8 +146,9 @@ p {
     color: #FFF;
 }
 
-/* Qualifications CSS
- * --------------------------------------- */
+/* #endregion */
+
+/* #region Qualifications CSS * --------------------------------------- */
 #section1 h1 {
     color: #FFF;
 }
@@ -248,9 +250,10 @@ p {
     width: 80%;
 }
 
+/* #endregion */
 
-/* Portfolio CSS
- * --------------------------------------- */
+
+/* #region Portfolio CSS * --------------------------------------- */
 #section2 p {
     color: #FFF;
 }
@@ -308,9 +311,9 @@ p {
     cursor: pointer;
 }
 
+/* #endregion */
 
-/* CV CSS
- * --------------------------------------- */
+/* #region CV CSS * --------------------------------------- */
 #section3 p {
     color: #FFF;
 }
@@ -320,9 +323,9 @@ p {
     color: #FFF;
 }
 
+/* #endregion */
 
-/* Contact CSS
- * --------------------------------------- */
+/* #region Contact CSS * --------------------------------------- */
 #section4 p {
     color: #FFF;
 }
@@ -332,9 +335,9 @@ p {
     color: #FFF;
 }
 
+/* #endregion */
 
-/* Link CSS
- * --------------------------------------- */
+/* #region Link CSS * --------------------------------------- */
 #section5 p {
     color: #333;
 }
@@ -344,9 +347,9 @@ p {
     color: #333;
 }
 
+/* #endregion */
 
-/* Progress Bar Styling CSS
- * --------------------------------------- */
+/* #region Progress Bar Styling CSS * --------------------------------------- */
 progress {
     margin-top: 5px;
     display: block;
@@ -378,3 +381,5 @@ progress::-webkit-progress-value {
     background: #68f1c8;
     box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.4), 0 2px 5px 0px rgba(0, 0, 0, 0.3);
 }
+
+/* #endregion */
