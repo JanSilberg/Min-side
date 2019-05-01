@@ -20,6 +20,8 @@
 </head>
 
 <body>
+
+	<!-- Navigation. -->
 	<nav>
 		<ul id="menu">
 			<li data-menuanchor="homePage"><a href="#homePage">Home</a></li>
@@ -31,15 +33,23 @@
 		</ul>
 	</nav>
 
+	<!-- Content Section -->
 	<section id="fullpage">
+
+		<!-- Home Section -->
 		<section class="section " id="section0">
 			<h1>Jan Silberg</h1>
 			<p>Develop, Secure, do it again and then once more!</p>
 			<br />
 			<img src="assets/img/jansilberg.jpg" class="site-images">
 		</section>
+
+		<!-- Qualifications Section -->
 		<section class="section" id="section1">
-			<section class="content-wrapper intro">
+
+
+			<!-- Qualifications Content Wrapper -->
+			<section class="content-wrapper">
 				<h1 id="center-text">Qualifications</h1>
 				<article id="home-whatdoido">
 					<h2>What do I do?</h2>
@@ -72,9 +82,14 @@
 
 				<img id="jansilberg-photo" src="assets/img/jansilberg2.jpg" alt="">
 			</section>
+
 		</section>
+
+		<!-- Portfolio Section-->
 		<section class="section" id="section2">
-			<section class="content-wrapper intro">
+
+			<!-- Portfolio Content Wrapper -->
+			<section class="content-wrapper">
 				<article id="portfolio-text">
 					<h1>Portfolio</h1>
 					<p>Here you can see some of the project that I have been involved with</p>
@@ -90,36 +105,53 @@
 				</a>
 
 			</section>
+
 		</section>
+
+		<!-- CV Section -->
 		<section class="section" id="section3">
-			<section class="intro">
+
+			<!-- CV Content Wrapper  -->
+			<section>
 				<h1>CV</h1>
 			</section>
+
 		</section>
+
+		<!-- Contact Section -->
 		<section class="section" id="section4">
-			<section class="intro">
+
+			<!-- Contact Content Wrapper  -->
+			<section>
 				<h1>Contact</h1>
 				<form action="https://formspree.io/contact@jansilberg.com" method="POST">
 					<input type="text" name="name">
 					<input type="email" name="_replyto">
 					<textarea name="message">Enter text here...</textarea>
 					<input type="submit" value="Send">
-				  </form>
+				</form>
 			</section>
+
 		</section>
+
+		<!-- Link Section -->
 		<section class="section" id="section5">
+
+			<!-- Link Content Wrapper -->
 			<section class="intro">
 				<h1>Links</h1>
-				
 			</section>
+
 		</section>
+
 	</section>
 
+	<!-- fullPage.js - https://alvarotrigo.com/fullPage/ -->
 	<script type="text/javascript" src="assets/js/fullpage.min.js"></script>
 	<script type="text/javascript">
 		var myFullpage = new fullpage('#fullpage', {
-			sectionsColor: ['#3C579D', '#47b192', '#d97d4a', '#d74747', '#7d52b8','#cccccc'],
-			anchors: ['homePage', 'qualPage', 'portfolioPage', 'cvPage', 'contactPage','linksPage'],
+			sectionsColor: ['#3C579D', '#47b192', '#d97d4a', '#d74747', '#7d52b8', '#cccccc'],
+			anchors: ['homePage', 'qualPage', 'portfolioPage', 'cvPage', 'contactPage', 'linksPage'],
 			navigation: true,
 			navigationPosition: 'right',
 			navigationTooltips: ['Home', 'Qualifications', 'Portfolio', 'CV', 'Contact', 'Link'],
