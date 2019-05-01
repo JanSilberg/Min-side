@@ -28,6 +28,7 @@
 			<li data-menuanchor="portfolioPage"><a href="#portfolioPage">Portfolio</a></li>
 			<li data-menuanchor="cvPage"><a href="#cvPage">CV</a></li>
 			<li data-menuanchor="contactPage"><a href="#contactPage">Contact</a></li>
+			<li data-menuanchor="linksPage"><a href="#linksPage">Links</a></li>
 		</ul>
 	</nav>
 
@@ -99,6 +100,18 @@
 		<section class="section" id="section4">
 			<section class="intro">
 				<h1>Contact</h1>
+				<form action="https://formspree.io/contact@jansilberg.com" method="POST">
+					<input type="text" name="name">
+					<input type="email" name="_replyto">
+					<textarea name="message">Enter text here...</textarea>
+					<input type="submit" value="Send">
+				  </form>
+			</section>
+		</section>
+		<section class="section" id="section4">
+			<section class="intro">
+				<h1>Links</h1>
+				
 			</section>
 		</section>
 	</section>
@@ -106,11 +119,11 @@
 	<script type="text/javascript" src="dist/fullpage.js"></script>
 	<script type="text/javascript">
 		var myFullpage = new fullpage('#fullpage', {
-			sectionsColor: ['#3C579D', '#47b192', '#d97d4a', '#d74747', '#733cbe'],
-			anchors: ['homePage', 'qualPage', 'portfolioPage', 'cvPage', 'contactPage'],
+			sectionsColor: ['#3C579D', '#47b192', '#d97d4a', '#d74747', '#7d52b8','#3e54b5'],
+			anchors: ['homePage', 'qualPage', 'portfolioPage', 'cvPage', 'contactPage','linksPage'],
 			navigation: true,
 			navigationPosition: 'right',
-			navigationTooltips: ['Home', 'Qualifications', 'Portfolio', 'CV', 'Contact'],
+			navigationTooltips: ['Home', 'Qualifications', 'Portfolio', 'CV', 'Contact', 'Link'],
 			menu: '#menu',
 		});
 	</script>
