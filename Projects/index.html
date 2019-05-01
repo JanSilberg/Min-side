@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Jan Silberg - www.jansilberg.com</title>
+	<meta name="author" content="Jan Silberg" />
+	<meta name="description" content="Jan Silberg - Information Page" />
+	<meta name="keywords" content="design,development,jquery,javascript,html" />
+	<meta name="Resource-type" content="Document" />
+	
+
+	<link rel="stylesheet" type="text/css" href="assets/css/fullpage.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+</head>
+
+<body>
+
+	<!-- Navigation. -->
+	<nav>
+		<ul id="menu">
+			<li data-menuanchor="homePage"><a href="#homePage">Home</a></li>
+			<li data-menuanchor="qualPage"><a href="#qualPage">Qualifications</a></li>
+			<li data-menuanchor="portfolioPage"><a href="#portfolioPage">Portfolio</a></li>
+			<li data-menuanchor="cvPage"><a href="#cvPage">CV</a></li>
+			<li data-menuanchor="contactPage"><a href="#contactPage">Contact</a></li>
+			<li data-menuanchor="linksPage"><a href="#linksPage">Links</a></li>
+		</ul>
+	</nav>
+
+	<!-- Content Section -->
+	<section id="fullpage">
+
+		<!-- Home Section -->
+		<section class="section " id="section0">
+			<h1>Jan Silberg</h1>
+			<p>Develop, Secure, do it again and then once more!</p>
+			<br />
+			<img src="assets/img/jansilberg.jpg" class="site-images" alt="A picture of Jan Silberg">
+			
+
+<p class="wc3-css">
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+    </a>
+</p>
+            
+		</section>
+		
+
+		<!-- Qualifications Section -->
+		<section class="section" id="section1">
+
+
+			<!-- Qualifications Content Wrapper -->
+			<section class="content-wrapper">
+				<h1 id="center-text">Qualifications</h1>
+				<article id="home-whatdoido">
+					<h2>What do I do?</h2>
+					<p>I do front-end development with HTML, CSS & Javascript.</p>
+					<p>My first functional self-made website is the one you're looking at right now.</p>
+					<p>As I learn more code, I will implement it into my website here.</p>
+					<p style="line-height: 5vw;">I also like to take make videos and take pictures.</p>
+					
+				</article>
+
+				<section id="skill-html">
+					<p>HTML</p>
+					<progress value="80" max="100"></progress>
+				</section>
+
+				<section id="skill-css">
+					<p>CSS</p>
+					<progress value="75" max="100"></progress>
+				</section>
+
+				<section id="skill-pre">
+					<p>Premiere Pro</p>
+					<progress value="55" max="100"></progress>
+				</section>
+
+				<section id="skill-js">
+					<p>Javascript</p>
+					<progress value="23" max="100"></progress>
+				</section>
+
+
+				<img id="jansilberg-photo" src="assets/img/jansilberg2.jpg" alt="">
+			</section>
+
+		</section>
+
+		<!-- Portfolio Section-->
+		<section class="section" id="section2">
+
+			<!-- Portfolio Content Wrapper -->
+			<section class="content-wrapper">
+				<article id="portfolio-text">
+					<h1>Portfolio</h1>
+					<p>Here you can see some of the project that I have been involved with.</p>
+					<p class="portfolio-pClicking">By clicking the images you will be taken to the individual pages where you can read more.</p>
+				</article>
+
+				<a id="projects-bbvd" href="https://jansilberg.com/Projects/Big-bad-voodo-daddy/Home.html">
+					<img src="assets/img/portfolio/bigbadvoododaddy.png" alt="Picture of project for big bad voodo daddy">
+				</a>
+
+				<a id="projects-bruhns-mode" href="https://jansilberg.com/Projects/Bruhns-mode/Programmering/Frontpage.html">
+					<img src="assets/img/portfolio/bruhns-mode.png" alt="Picture of project for Bruhns mode">
+				</a>
+
+			</section>
+
+		</section>
+
+		<!-- CV Section -->
+		<section class="section" id="section3">
+
+			<!-- CV Content Wrapper  -->
+			<section>
+				<h1>CV</h1>
+				<p>To come</p>
+				<p>:)</p>
+			</section>
+
+		</section>
+
+		<!-- Contact Section -->
+		<section class="section" id="section4">
+
+			<!-- Contact Content Wrapper  -->
+			<section>
+				<h1>Contact</h1>
+				<form action="https://formspree.io/contact@jansilberg.com" method="POST">
+                    <input type="text" name="name" class="contact-form-input-styling" placeholder="Your Name" required>
+                    <input type="email" name="_replyto" class="contact-form-input-styling" placeholder="Your Email" required>
+                    <textarea name="message" class="contact-form-input-styling contact-textarea" placeholder="Enter your message" required></textarea>
+                    <input type="submit" value="Send" class="contact-form-button-styling">
+                </form>
+			</section>
+
+		</section>
+
+		<!-- Link Section -->
+		<section class="section" id="section5">
+
+			<!-- Link Content Wrapper -->
+			<section class="intro">
+				<h1>Links</h1>
+				<p>To come</p>
+				<p>:)</p>
+			</section>
+
+		</section>
+
+	</section>
+
+	<!-- fullPage.js - https://alvarotrigo.com/fullPage/ -->
+	<script type="text/javascript" src="assets/js/fullpage.min.js"></script>
+	<script type="text/javascript">
+		var myFullpage = new fullpage('#fullpage', {
+			sectionsColor: ['#3C579D', '#47b192', '#d97d4a', '#d74747', '#7d52b8', '#cccccc'],
+			anchors: ['homePage', 'qualPage', 'portfolioPage', 'cvPage', 'contactPage', 'linksPage'],
+			navigation: true,
+			navigationPosition: 'right',
+			navigationTooltips: ['Home', 'Qualifications', 'Portfolio', 'CV', 'Contact', 'Link'],
+			menu: '#menu',
+		});
+	</script>
+
+</body>
+
+</html>
